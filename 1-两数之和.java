@@ -1,4 +1,4 @@
-package Main;
+package 两数之和_1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
