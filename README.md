@@ -1,4 +1,4 @@
-# LeetCode算法解题
+# LeetCode 算法解题
 
 [1、两数之和](https://leetcode-cn.com/problems/two-sum/)
 
