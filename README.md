@@ -9,3 +9,5 @@
 [4、寻找两个有序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
 
 [5、最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/submissions/)
+
+[6、Z字形变换](https://leetcode-cn.com/problems/zigzag-conversion/)
