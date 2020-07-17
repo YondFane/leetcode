@@ -57,3 +57,5 @@
 [29-两数相除](https://leetcode-cn.com/problems/divide-two-integers/)
 
 [30-串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)//有待优化
+
+[31-下一个排序](https://leetcode-cn.com/problems/next-permutation/)
