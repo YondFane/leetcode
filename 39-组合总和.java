@@ -81,16 +81,18 @@ class Solution {
         }
     }
 }
-//执行用时：
-//4 ms
-//, 在所有 Java 提交中击败了
-//56.12%
-//的用户
-//内存消耗：
-//40.3 MB
-//, 在所有 Java 提交中击败了
-//9.43%
-//的用户
+/*
+执行用时：
+6 ms
+, 在所有 Java 提交中击败了
+28.83%
+的用户
+内存消耗：
+40.2 MB
+, 在所有 Java 提交中击败了
+9.43%
+的用户
+*/
 class Solution1 {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> listList = new ArrayList<>();
@@ -100,16 +102,19 @@ class Solution1 {
     }
     public void fun(List<List<Integer>> listList, List<Integer> list, int[] nums, int target, int i) {
         if (target == 0) {
-            listList.add(list);
+            if (!listList.contains(list)) {
+                listList.add(list);
+            }
             return;
-        }
-        for (;i < nums.length; i++) {
-            if (nums[i] <= target) {
-                List<Integer> temp = new ArrayList<>(list);
-                temp.add(nums[i]);
-                fun(listList, temp, nums, target - nums[i], i);
-            } else {
-                break;
+        } else if(target > 0){
+            for (;i < nums.length; i++) {
+                if (nums[i] <= target) {
+                    List<Integer> temp = new ArrayList<>(list);
+                    temp.add(nums[i]);
+                    fun(listList, temp, nums, target - nums[i], i);
+                } else {
+                    break;
+                }
             }
         }
     }
