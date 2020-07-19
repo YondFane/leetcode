@@ -65,3 +65,5 @@
 [34-在排列数数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 
 [35-搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)
+
+[39-组合总和](https://leetcode-cn.com/problems/combination-sum/)
