@@ -69,3 +69,6 @@
 [39-组合总和](https://leetcode-cn.com/problems/combination-sum/)
 
 [40-组合总和II](https://leetcode-cn.com/problems/combination-sum-ii/)
+
+[867-转置矩阵](https://leetcode-cn.com/problems/transpose-matrix/)
+
