@@ -72,5 +72,7 @@
 
 [57-插入区间](https://leetcode-cn.com/problems/insert-interval/)
 
+[67-有效数字](https://leetcode-cn.com/problems/valid-number/)
+
 [867-转置矩阵](https://leetcode-cn.com/problems/transpose-matrix/)
 
