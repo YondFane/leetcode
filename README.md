@@ -74,5 +74,7 @@
 
 [65-有效数字](https://leetcode-cn.com/problems/valid-number/)
 
+[67-二进制求和](https://leetcode-cn.com/problems/add-binary/)
+
 [867-转置矩阵](https://leetcode-cn.com/problems/transpose-matrix/)
 
