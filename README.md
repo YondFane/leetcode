@@ -80,5 +80,7 @@
 
 [95-不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)
 
+[96-不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)
+
 [867-转置矩阵](https://leetcode-cn.com/problems/transpose-matrix/)
 
