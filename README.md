@@ -76,5 +76,7 @@
 
 [67-二进制求和](https://leetcode-cn.com/problems/add-binary/)
 
+[94-二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+
 [867-转置矩阵](https://leetcode-cn.com/problems/transpose-matrix/)
 
