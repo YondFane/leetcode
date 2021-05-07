@@ -1,6 +1,6 @@
 # LeetCode 算法解题
 
-[1、两数之和](https://leetcode-cn.com/problems/two-sum/)
+[1、两数之和](src/question1/LeetCode1.java)--->[leetcode链接](https://leetcode-cn.com/problems/two-sum/)
 
 [2、两数相加](https://leetcode-cn.com/problems/add-two-numbers/)
 
