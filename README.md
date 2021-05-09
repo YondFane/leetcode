@@ -92,6 +92,8 @@
 
 [102-二叉树的层序遍历](src/question102/LeetCode102.java)--->[leetcode链接](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
 
+[148-排序链表](src/question148/LeetCode148.java)--->[leetcode链接](https://leetcode-cn.com/problems/sort-list/)
+
 [867-转置矩阵](src/question867/LeetCode867.java)--->[leetcode链接](https://leetcode-cn.com/problems/transpose-matrix/)
 
 [1329-将矩阵按对角线排序](src/question1329/LeetCode1329.java)--->[leetcode链接](https://leetcode-cn.com/problems/sort-the-matrix-diagonally/)
