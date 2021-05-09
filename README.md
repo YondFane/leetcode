@@ -74,6 +74,8 @@
 
 [65-有效数字](src/question65/LeetCode65.java)--->[leetcode链接](https://leetcode-cn.com/problems/valid-number/)
 
+[66-加一](src/question66/LeetCode66.java)--->[leetcode链接](https://leetcode-cn.com/problems/plus-one/)
+
 [67-二进制求和](src/question67/LeetCode67.java)--->[leetcode链接](https://leetcode-cn.com/problems/add-binary/)
 
 [75-颜色分类](src/question75/LeetCode75.java)--->[leetcode链接](https://leetcode-cn.com/problems/sort-colors/)
