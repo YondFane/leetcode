@@ -108,6 +108,8 @@
 
 [257-二叉树的所有路径](src/question257/LeetCode257.java)--->[leetcode链接](https://leetcode-cn.com/problems/binary-tree-paths/)
 
+[404-左叶子之和](src/question404/LeetCode404.java)--->[leetcode链接](https://leetcode-cn.com/problems/sum-of-left-leaves/)
+
 [867-转置矩阵](src/question867/LeetCode867.java)--->[leetcode链接](https://leetcode-cn.com/problems/transpose-matrix/)
 
 [1329-将矩阵按对角线排序](src/question1329/LeetCode1329.java)--->[leetcode链接](https://leetcode-cn.com/problems/sort-the-matrix-diagonally/)
