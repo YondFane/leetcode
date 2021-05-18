@@ -104,6 +104,8 @@
 
 [133-克隆图](src/question133/LeetCode133.java)--->[leetcode链接](https://leetcode-cn.com/problems/clone-graph/)
 
+[136-只出现一次的数字](src/question136/LeetCode136.java)--->[leetcode链接](https://leetcode-cn.com/problems/single-number/)
+
 [138-复制带随机指针的链表](src/question138/LeetCode138.java)--->[leetcode链接](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)
 
 [144-二叉树的前序遍历](src/question144/LeetCode144.java)--->[leetcode链接](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
