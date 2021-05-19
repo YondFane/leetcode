@@ -126,6 +126,8 @@
 
 [344-反转字符串](src/question344/LeetCode344.java)--->[leetcode链接](https://leetcode-cn.com/problems/reverse-string/)
 
+[397-整数替换](src/question397/LeetCode397.java)--->[leetcode链接](https://leetcode-cn.com/problems/integer-replacement/)
+
 [404-左叶子之和](src/question404/LeetCode404.java)--->[leetcode链接](https://leetcode-cn.com/problems/sum-of-left-leaves/)
 
 [539-最小时间差](src/question539/LeetCode539.java)--->[leetcode链接](https://leetcode-cn.com/problems/minimum-time-difference/)
