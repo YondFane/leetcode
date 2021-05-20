@@ -126,6 +126,8 @@
 
 [257-二叉树的所有路径](src/question257/LeetCode257.java)--->[leetcode链接](https://leetcode-cn.com/problems/binary-tree-paths/)
 
+[268-丢失的数字](src/question268/LeetCode268.java)--->[leetcode链接](https://leetcode-cn.com/problems/missing-number/)
+
 [344-反转字符串](src/question344/LeetCode344.java)--->[leetcode链接](https://leetcode-cn.com/problems/reverse-string/)
 
 [397-整数替换](src/question397/LeetCode397.java)--->[leetcode链接](https://leetcode-cn.com/problems/integer-replacement/)
