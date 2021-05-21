@@ -86,6 +86,8 @@
 
 [78-子集](src/question78/LeetCode78.java)--->[leetcode链接](https://leetcode-cn.com/problems/subsets/)
 
+[84-柱状图中最大的矩形](src/question84/LeetCode84.java)--->[leetcode链接](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
+
 [90-子集II](src/question90/LeetCode90.java)--->[leetcode链接](https://leetcode-cn.com/problems/subsets-ii/)
 
 [94-二叉树的中序遍历](src/question94/LeetCode94.java)--->[leetcode链接](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
