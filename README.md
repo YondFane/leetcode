@@ -70,6 +70,8 @@
 
 [40-组合总和II](src/question40/LeetCode40.java)--->[leetcode链接](https://leetcode-cn.com/problems/combination-sum-ii/)
 
+[55-跳跃游戏](src/question55/LeetCode55.java)--->[leetcode链接](https://leetcode-cn.com/problems/jump-game/)
+
 [57-插入区间](src/question57/LeetCode57.java)--->[leetcode链接](https://leetcode-cn.com/problems/insert-interval/)
 
 [61-旋转链表](src/question61/LeetCode61.java)--->[leetcode链接](https://leetcode-cn.com/problems/rotate-list/)
