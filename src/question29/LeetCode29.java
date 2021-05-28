@@ -1,8 +1,4 @@
 package src.question29;
-
-import com.sun.javafx.image.IntPixelGetter;
-import jdk.management.resource.internal.inst.SocketOutputStreamRMHooks;
-
 /**两数相除
  * @Author YFAN
  * @Description

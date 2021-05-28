@@ -1,6 +1,5 @@
 package src.question21;
 
-import java.util.List;
 
 /**合并两个有序链表
  * @Author YFAN

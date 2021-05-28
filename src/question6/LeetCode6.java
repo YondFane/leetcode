@@ -1,10 +1,5 @@
 package src.question6;
 
-import java.awt.font.NumericShaper;
-import java.nio.file.FileAlreadyExistsException;
-import java.util.ArrayList;
-import java.util.List;
-
 /**Z字形变换
  *
  * @Author YFAN
