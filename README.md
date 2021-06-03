@@ -152,6 +152,8 @@
 
 [867-转置矩阵](src/question867/LeetCode867.java)--->[leetcode链接](https://leetcode-cn.com/problems/transpose-matrix/)
 
+[976-三角形的最大周长](src/question976/LeetCode976.java)--->[leetcode链接](https://leetcode-cn.com/problems/largest-perimeter-triangle/)
+
 [1081-不同字符的最小子序列](src/question1081/LeetCode1081.java)--->[leetcode链接](https://leetcode-cn.com/problems/smallest-subsequence-of-distinct-characters/)
 
 [1329-将矩阵按对角线排序](src/question1329/LeetCode1329.java)--->[leetcode链接](https://leetcode-cn.com/problems/sort-the-matrix-diagonally/)
