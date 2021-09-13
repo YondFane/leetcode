@@ -90,7 +90,7 @@
 
 [78-子集](src/question78/LeetCode78.java)--->[leetcode链接](https://leetcode-cn.com/problems/subsets/)
 
-[79-单词搜索](src/question78/LeetCode78.java)--->[leetcode链接](https://leetcode-cn.com/problems/word-search/)
+[79-单词搜索](src/question78/LeetCode79.java)--->[leetcode链接](https://leetcode-cn.com/problems/word-search/)
 
 [84-柱状图中最大的矩形](src/question84/LeetCode84.java)--->[leetcode链接](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
 
@@ -153,6 +153,8 @@
 [402-移掉K位数字](src/question402/LeetCode402.java)--->[leetcode链接](https://leetcode-cn.com/problems/remove-k-digits/)
 
 [404-左叶子之和](src/question404/LeetCode404.java)--->[leetcode链接](https://leetcode-cn.com/problems/sum-of-left-leaves/)
+
+[447-回旋镖的数量](src/question404/LeetCode447.java)--->[leetcode链接](https://leetcode-cn.com/problems/number-of-boomerangs/)
 
 [539-最小时间差](src/question539/LeetCode539.java)--->[leetcode链接](https://leetcode-cn.com/problems/minimum-time-difference/)
 
