@@ -156,6 +156,8 @@
 
 [447-回旋镖的数量](src/question404/LeetCode447.java)--->[leetcode链接](https://leetcode-cn.com/problems/number-of-boomerangs/)
 
+[524-通过删除字母匹配到字典里最长单词](src/question539/LeetCode524.java)--->[leetcode链接](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/)
+
 [539-最小时间差](src/question539/LeetCode539.java)--->[leetcode链接](https://leetcode-cn.com/problems/minimum-time-difference/)
 
 [867-转置矩阵](src/question867/LeetCode867.java)--->[leetcode链接](https://leetcode-cn.com/problems/transpose-matrix/)
