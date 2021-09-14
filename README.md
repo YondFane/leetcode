@@ -160,6 +160,8 @@
 
 [539-最小时间差](src/question539/LeetCode539.java)--->[leetcode链接](https://leetcode-cn.com/problems/minimum-time-difference/)
 
+[678-有效的括号字符串](src/question678/LeetCode678.java)--->[leetcode链接](https://leetcode-cn.com/problems/valid-parenthesis-string/)
+
 [867-转置矩阵](src/question867/LeetCode867.java)--->[leetcode链接](https://leetcode-cn.com/problems/transpose-matrix/)
 
 [976-三角形的最大周长](src/question976/LeetCode976.java)--->[leetcode链接](https://leetcode-cn.com/problems/largest-perimeter-triangle/)
