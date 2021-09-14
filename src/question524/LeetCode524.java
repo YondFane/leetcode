@@ -44,6 +44,9 @@ class Solution {
     public String findLongestWord(String s, List<String> dictionary) {
         String result = "";
         for (String str : dictionary) {
+            if (str.length() < result.length()) {
+                continue;
+            }
             int i = 0;
             int j = 0;
             while (i < str.length() && j < s.length()) {
