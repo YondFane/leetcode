@@ -40,6 +40,9 @@ class Solution {
      */
     public int lengthOfLIS(int[] nums) {
         int length = nums.length;
+        if (length == 0) {
+            return 0;
+        }
         int[] dp = new int[length];
         //dp[i] 为考虑前 i 个元素，以第 i 个数字结尾的最长上升子序列的长度
         dp[0] = 1;// 默认长度1
