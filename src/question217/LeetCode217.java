@@ -23,6 +23,7 @@ public class LeetCode217 {
 
     }
 }
+
 class Solution {
     /*
      * 使用哈希表
@@ -40,5 +41,23 @@ class Solution {
             set.add(i);
         }
         return false;
+    }
+
+    /*
+     * 使用哈希表 + 双指针
+     * @author YFAN
+     * @date 2021/9/20/020
+     * @param  * @param nums
+     * @return boolean
+     */
+    public boolean containsDuplicate2(int[] nums) {
+        HashSet<Integer> set = new HashSet<>();
+        int i = 0;
+        int j = nums.length - 1;
+        for (; i <= j; i++, j--) {
+            set.add(nums[i]);
+            set.add(nums[j]);
+        }
+        return set.size() != nums.length;
     }
 }
