@@ -142,6 +142,8 @@
 
 [268-丢失的数字](src/question268/LeetCode268.java)--->[leetcode链接](https://leetcode-cn.com/problems/missing-number/)
 
+[278-第一个错误的版本](src/question278/LeetCode278.java)--->[leetcode链接](https://leetcode-cn.com/problems/first-bad-version/)
+
 [300-最长递增子序列](src/question300/LeetCode300.java)--->[leetcode链接](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
 
 [316-去除重复字母](src/question316/LeetCode316.java)--->[leetcode链接](https://leetcode-cn.com/problems/remove-duplicate-letters/)
