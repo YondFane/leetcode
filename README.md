@@ -164,6 +164,8 @@
 
 [678-有效的括号字符串](src/question678/LeetCode678.java)--->[leetcode链接](https://leetcode-cn.com/problems/valid-parenthesis-string/)
 
+[704-二分查找](src/question704/LeetCode704.java)--->[leetcode链接](https://leetcode-cn.com/problems/binary-search/)
+
 [867-转置矩阵](src/question867/LeetCode867.java)--->[leetcode链接](https://leetcode-cn.com/problems/transpose-matrix/)
 
 [976-三角形的最大周长](src/question976/LeetCode976.java)--->[leetcode链接](https://leetcode-cn.com/problems/largest-perimeter-triangle/)
