@@ -1,6 +1,6 @@
 package src.question35;
 
-/**搜索插入位置
+/**35-搜索插入位置
  * @Author YFAN
  * @Description
  * @Date 19:23 2020/7/19/019
@@ -47,5 +47,29 @@ class Solution {
             }
         }
         return nums.length;
+    }
+    /*
+     * 二分查找
+     * @author YFAN
+     * @date 2021/9/20/020
+     * @param  * @param nums
+     * @param target
+     * @return int
+     */
+    public int searchInsert2(int[] nums, int target) {
+        int left = 0;
+        int right = nums.length -1;
+        while (left <= right) {
+            int mid = left + (right - left) /2;
+            if (target < nums[mid]) {
+                right = mid - 1;
+            } else if (target > nums[mid]){
+                left = mid + 1;
+            } else {
+                // 数组中存在返回其索引
+                return mid;
+            }
+        }
+        return left;
     }
 }
