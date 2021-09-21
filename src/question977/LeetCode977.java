@@ -1,4 +1,4 @@
-package src.question97;
+package src.question977;
 
 import java.util.Arrays;
 
@@ -22,7 +22,7 @@ nums 已按 非递减顺序 排序
 进阶：
 请你设计时间复杂度为 O(n) 的算法解决本问题
  */
-public class LeetCode97 {
+public class LeetCode977 {
     public static void main(String[] args) {
         int[] nums = {-4, -1, 0, 3, 10};
         int[] ints = new Solution().sortedSquares(nums);

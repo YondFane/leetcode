@@ -104,8 +104,6 @@
 
 [96-不同的二叉搜索树](src/question96/LeetCode96.java)--->[leetcode链接](https://leetcode-cn.com/problems/unique-binary-search-trees/)
 
-[97-有序数组的平方](src/question97/LeetCode97.java)--->[leetcode链接](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)
-
 [98-验证二叉搜索树](src/question98/LeetCode98.java)--->[leetcode链接](https://leetcode-cn.com/problems/validate-binary-search-tree/)
 
 [100-相同的树](src/question100/LeetCode100.java)--->[leetcode链接](https://leetcode-cn.com/problems/same-tree/)
@@ -177,6 +175,8 @@
 [867-转置矩阵](src/question867/LeetCode867.java)--->[leetcode链接](https://leetcode-cn.com/problems/transpose-matrix/)
 
 [976-三角形的最大周长](src/question976/LeetCode976.java)--->[leetcode链接](https://leetcode-cn.com/problems/largest-perimeter-triangle/)
+
+[977-有序数组的平方](src/question977/LeetCode977.java)--->[leetcode链接](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)
 
 [1081-不同字符的最小子序列](src/question1081/LeetCode1081.java)--->[leetcode链接](https://leetcode-cn.com/problems/smallest-subsequence-of-distinct-characters/)
 
