@@ -180,6 +180,8 @@
 
 [704-二分查找](src/question704/LeetCode704.java)--->[leetcode链接](https://leetcode-cn.com/problems/binary-search/)
 
+[746-使用最小花费爬楼梯](src/question746/LeetCode746.java)--->[leetcode链接](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)
+
 [867-转置矩阵](src/question867/LeetCode867.java)--->[leetcode链接](https://leetcode-cn.com/problems/transpose-matrix/)
 
 [976-三角形的最大周长](src/question976/LeetCode976.java)--->[leetcode链接](https://leetcode-cn.com/problems/largest-perimeter-triangle/)
