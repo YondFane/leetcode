@@ -104,6 +104,8 @@
 
 [96-不同的二叉搜索树](src/question96/LeetCode96.java)--->[leetcode链接](https://leetcode-cn.com/problems/unique-binary-search-trees/)
 
+[97-有序数组的平方](src/question97/LeetCode97.java)--->[leetcode链接](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)
+
 [98-验证二叉搜索树](src/question98/LeetCode98.java)--->[leetcode链接](https://leetcode-cn.com/problems/validate-binary-search-tree/)
 
 [100-相同的树](src/question100/LeetCode100.java)--->[leetcode链接](https://leetcode-cn.com/problems/same-tree/)
