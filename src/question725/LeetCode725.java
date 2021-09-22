@@ -35,7 +35,7 @@ public class LeetCode725 {
                 tempListNode = tempListNode.next;
             }
         }
-        ListNode[] listNodes = new Solution().splitListToParts(listNode, 4);
+        ListNode[] listNodes = new Solution().splitListToParts2(listNode, 3);
         for (ListNode node : listNodes) {
             while (node != null) {
                 System.out.print(node.val + " ");
@@ -73,6 +73,41 @@ class Solution {
                 head = head.next;
             }
             listNodes[i] = cur.next;
+        }
+        return listNodes;
+    }
+
+    /*
+     * 空间复杂度优化
+     * @author YFAN
+     * @date 2021/9/22/022
+     * @param  * @param head
+     * @param k
+     * @return src.question725.ListNode[]
+     */
+    public ListNode[] splitListToParts2(ListNode head, int k) {
+        int size = 0;// 链表长度
+        ListNode temp = head;
+        while (temp != null) {
+            size++;
+            temp = temp.next;
+        }
+        // 计算链表分成k份后每份多少个节点
+        int part = size / k;
+        // 多余的节点也计算出来
+        int remainder = size % k;
+        // 初始化数组
+        ListNode[] listNodes = new ListNode[k];
+        ListNode tempHead = head;
+        for (int i = 0; i < k && tempHead != null; i++) {
+            listNodes[i] = tempHead;// 此处已经是第一个了 下面j初始为1
+            int partSize = part + (remainder-- > 0 ? 1 : 0);
+            for (int j = 1; j < partSize; j++) {
+                tempHead = tempHead.next;
+            }
+            ListNode next = tempHead.next;
+            tempHead.next = null;
+            tempHead = next;
         }
         return listNodes;
     }
