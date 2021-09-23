@@ -138,6 +138,8 @@
 
 [164-最大间距](src/question164/LeetCode164.java)--->[leetcode链接](https://leetcode-cn.com/problems/maximum-gap/)
 
+[167-两数之和 II - 输入有序数组](src/question167/LeetCode167.java)--->[leetcode链接](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
+
 [179-最大数](src/question179/LeetCode179.java)--->[leetcode链接](https://leetcode-cn.com/problems/largest-number/)
 
 [189-旋转数组](src/question189/LeetCode189.java)--->[leetcode链接](https://leetcode-cn.com/problems/rotate-array/)
