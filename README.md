@@ -162,6 +162,8 @@
 
 [316-去除重复字母](src/question316/LeetCode316.java)--->[leetcode链接](https://leetcode-cn.com/problems/remove-duplicate-letters/)
 
+[326-3的幂](src/question326/LeetCode326.java)--->[leetcode链接](https://leetcode-cn.com/problems/power-of-three/)
+
 [344-反转字符串](src/question344/LeetCode344.java)--->[leetcode链接](https://leetcode-cn.com/problems/reverse-string/)
 
 [392-判断子序列](src/question392/LeetCode392.java)--->[leetcode链接](https://leetcode-cn.com/problems/is-subsequence/)
