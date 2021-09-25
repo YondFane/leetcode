@@ -194,6 +194,8 @@
 
 [867-转置矩阵](src/question867/LeetCode867.java)--->[leetcode链接](https://leetcode-cn.com/problems/transpose-matrix/)
 
+[876-链表的中间结点](src/question876/LeetCode876.java)--->[leetcode链接](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
+
 [976-三角形的最大周长](src/question976/LeetCode976.java)--->[leetcode链接](https://leetcode-cn.com/problems/largest-perimeter-triangle/)
 
 [977-有序数组的平方](src/question977/LeetCode977.java)--->[leetcode链接](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)
