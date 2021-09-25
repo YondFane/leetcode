@@ -99,6 +99,62 @@ class Solution2 {
     }
 }
 
+
+
+
+/*
+ * 再解一遍
+ * @author YFAN
+ * @date 2021/9/25/025
+ * @param  * @param null
+ * @return
+ */
+class Solution3 {
+    /*
+     * 1 2 3 4 5 6
+     * n = 1 -- 1 2 3 4 5
+     * n = 2 -- 1 2 3 4 6
+     * n = 6 -- 2 3 4 5 6
+     *
+     * @author YFAN
+     * @date 2021/9/25/025
+     * @param  * @param head
+     * @param n
+     * @return src.question19.ListNode
+     */
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        ListNode temp = head;
+        ListNode p = head;
+        ListNode q = head;
+        // 先行n步
+        while (n-- > 0) {
+            temp = temp.next;
+        }
+        // 遍历n个链表节点后，temp为null，那么n等于链表长度
+        if (temp == null) {
+            return p.next;
+        } else {
+            // 记录前一个节点
+            ListNode pre = p;
+            // 当前节点
+            ListNode cur = p;
+            while (temp!=null) {
+                temp = temp.next;
+                pre = p;
+                p = p.next;
+                cur = p;
+            }
+            // 如果当前节点的下个节点为null，那么cur为最后一个节点
+            if (cur.next == null) {
+                pre.next = null;
+            } else {
+                pre.next = cur.next;
+            }
+        }
+        return q;
+    }
+}
+
 class ListNode {
     int val;
     ListNode next;
