@@ -59,4 +59,23 @@ class Solution {
         }
         return slow;
     }
+
+    /*
+     * 优解
+     * @author YFAN
+     * @date 2021/9/25/025
+     * @param  * @param head
+     * @return src.question876.ListNode
+     */
+    public ListNode middleNode2(ListNode head) {
+        // 慢指针
+        ListNode slow = head;
+        // 快指针
+        ListNode fast = head;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        return slow;
+    }
 }
