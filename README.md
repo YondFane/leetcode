@@ -184,6 +184,8 @@
 
 [557-反转字符串中的单词 III](src/question557/LeetCode557.java)--->[leetcode链接](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)
 
+[567-字符串的排列](src/question567/LeetCode567.java)--->[leetcode链接](https://leetcode-cn.com/problems/permutation-in-string/)
+
 [678-有效的括号字符串](src/question678/LeetCode678.java)--->[leetcode链接](https://leetcode-cn.com/problems/valid-parenthesis-string/)
 
 [704-二分查找](src/question704/LeetCode704.java)--->[leetcode链接](https://leetcode-cn.com/problems/binary-search/)
