@@ -190,6 +190,8 @@
 
 [678-有效的括号字符串](src/question678/LeetCode678.java)--->[leetcode链接](https://leetcode-cn.com/problems/valid-parenthesis-string/)
 
+[695-岛屿的最大面积](src/question695/LeetCode695.java)--->[leetcode链接](https://leetcode-cn.com/problems/max-area-of-island/)
+
 [704-二分查找](src/question704/LeetCode704.java)--->[leetcode链接](https://leetcode-cn.com/problems/binary-search/)
 
 [725-分隔链表](src/question725/LeetCode725.java)--->[leetcode链接](https://leetcode-cn.com/problems/split-linked-list-in-parts/)
