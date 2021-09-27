@@ -50,6 +50,7 @@ class Solution {
         }
         return result;
     }
+
     /*
      * 深度遍历
      * 找出岛屿面积
@@ -80,21 +81,19 @@ class Solution {
         }
     }
 }
+
 /*
  * 优化
  * 去掉visited标记访问数组
+ * 去掉direction
  * @author YFAN
  * @date 2021/9/27/027
  * @param  * @param null
  * @return
  */
 class Solution2 {
-    private int result;
-    // 上下左右
-    private int[][] direction = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
-
     public int maxAreaOfIsland(int[][] grid) {
-
+        int result = 0;
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[0].length; j++) {
                 // 存在岛屿则进行深度遍历
@@ -105,6 +104,7 @@ class Solution2 {
         }
         return result;
     }
+
     /*
      * 深度遍历
      * 找出岛屿面积
@@ -116,19 +116,16 @@ class Solution2 {
      * @return int
      */
     private int def(int[][] grid, int x, int y) {
-        int area = grid[x][y];
-        if (area == 1) {
-            // 改为 0
-            grid[x][y] = 0;
-            for (int[] array : direction) {
-                int newX = x + array[0];
-                int newY = y + array[1];
-                // 判断边界
-                if (newX >= 0 && newY >= 0 && newX < grid.length && newY < grid[0].length && grid[newX][newY] == 1) {
-                    area += def(grid, newX, newY);
-                }
-            }
+        if (x < 0 || y < 0 || x >= grid.length || y >= grid[0].length || grid[x][y] == 0) {
+            return 0;
         }
+        int area = 1;
+        // 改为0
+        grid[x][y] = 0;
+        area += def(grid, x - 1, y);
+        area += def(grid, x + 1, y);
+        area += def(grid, x, y - 1);
+        area += def(grid, x, y + 1);
         return area;
     }
 }
