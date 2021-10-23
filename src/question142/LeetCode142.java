@@ -32,6 +32,19 @@ public class LeetCode142 {
     }
 }
 class Solution {
+    /*
+     * a+(n+1)b+nc=2(a+b)⟹a=c+(n−1)(b+c)
+     * a 链头到环的距离
+     * b 为慢指针在环内被快指针追上时所走的距离
+     * c 为环距离减去b的距离
+     * b+c为环的长度
+     * 快指针追上慢指针时，走了N圈(b+c) + b
+     * 由公式所示：慢指针被快指针追上时，慢指针走完剩下的环距离等于链头到环的距离
+     * @author YFAN
+     * @date 2021/10/23/023
+     * @param  * @param head
+     * @return src.question142.ListNode
+     */
     public ListNode detectCycle(ListNode head) {
         if (head == null) {
             return null;
