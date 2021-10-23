@@ -1,5 +1,7 @@
 package src.question141;
+
 import java.util.HashSet;
+
 /*
  * 141. 环形链表
  * @author YFAN
@@ -32,6 +34,7 @@ public class LeetCode141 {
     }
 
 }
+
 class Solution {
     public boolean hasCycle(ListNode head) {
         HashSet<ListNode> set = new HashSet<>();
@@ -44,5 +47,31 @@ class Solution {
             temp = temp.next;
         }
         return false;
+    }
+}
+
+class Solution2 {
+    /*
+     * 使用快慢指针
+     * @author YFAN
+     * @date 2021/10/23/023
+     * @param  * @param head
+     * @return boolean
+     */
+    public boolean hasCycle(ListNode head) {
+        if (head == null || head.next == null) {
+            return false;
+        }
+        ListNode slow = head;
+        ListNode fast = head.next;
+        while (slow != fast) {
+            // 快指针到达链表尾部 无环形链表
+            if (fast == null || fast.next == null) {
+                return false;
+            }
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return true;
     }
 }
