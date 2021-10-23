@@ -126,6 +126,8 @@
 
 [138-复制带随机指针的链表](src/question138/LeetCode138.java)--->[leetcode链接](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)
 
+[141-环形链表](src/question141/LeetCode141.java)--->[leetcode链接](https://leetcode-cn.com/problems/linked-list-cycle/)
+
 [144-二叉树的前序遍历](src/question144/LeetCode144.java)--->[leetcode链接](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
 
 [145-二叉树的后序遍历](src/question145/LeetCode145.java)--->[leetcode链接](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
