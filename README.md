@@ -80,6 +80,8 @@
 
 [61-旋转链表](src/question61/LeetCode61.java)--->[leetcode链接](https://leetcode-cn.com/problems/rotate-list/)
 
+[62-不同路径](src/question62/LeetCode62.java)--->[leetcode链接](https://leetcode-cn.com/problems/unique-paths/)
+
 [65-有效数字](src/question65/LeetCode65.java)--->[leetcode链接](https://leetcode-cn.com/problems/valid-number/)
 
 [66-加一](src/question66/LeetCode66.java)--->[leetcode链接](https://leetcode-cn.com/problems/plus-one/)
