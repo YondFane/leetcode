@@ -154,6 +154,8 @@
 
 [179-最大数](src/question179/LeetCode179.java)--->[leetcode链接](https://leetcode-cn.com/problems/largest-number/)
 
+[187-重复的DNA序列](src/question187/LeetCode187.java)--->[leetcode链接](https://leetcode-cn.com/problems/repeated-dna-sequences/)
+
 [189-旋转数组](src/question189/LeetCode189.java)--->[leetcode链接](https://leetcode-cn.com/problems/rotate-array/)
 
 [217-存在重复元素](src/question217/LeetCode217.java)--->[leetcode链接](https://leetcode-cn.com/problems/contains-duplicate/)
