@@ -160,6 +160,8 @@
 
 [189-旋转数组](src/question189/LeetCode189.java)--->[leetcode链接](https://leetcode-cn.com/problems/rotate-array/)
 
+[211-添加与搜索单词 - 数据结构设计](src/question211/LeetCode211.java)--->[leetcode链接](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/)
+
 [217-存在重复元素](src/question217/LeetCode217.java)--->[leetcode链接](https://leetcode-cn.com/problems/contains-duplicate/)
 
 [226-翻转二叉树](src/question226/LeetCode226.java)--->[leetcode链接](https://leetcode-cn.com/problems/invert-binary-tree/)
