@@ -168,6 +168,8 @@
 
 [226-翻转二叉树](src/question226/LeetCode226.java)--->[leetcode链接](https://leetcode-cn.com/problems/invert-binary-tree/)
 
+[230-二叉搜索树中第K小的元素](src/question230/LeetCode230.java)--->[leetcode链接](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/)
+
 [240-搜索二维矩阵 II](src/question240/LeetCode240.java)--->[leetcode链接](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)
 
 [242-有效的字母异位词](src/question242/LeetCode242.java)--->[leetcode链接](https://leetcode-cn.com/problems/valid-anagram/)
