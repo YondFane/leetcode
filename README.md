@@ -264,3 +264,5 @@
 
 [1365-有多少小于当前数字的数字](src/question1365/LeetCode1365.java)--->[leetcode链接](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
 
+[1394-找出数组中的幸运数](src/question1394/LeetCode1394.java)--->[leetcode链接](https://leetcode-cn.com/problems/find-lucky-integer-in-an-array/)
+
