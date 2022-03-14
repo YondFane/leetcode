@@ -204,6 +204,8 @@
 
 [344-反转字符串](src/question344/LeetCode344.java)--->[leetcode链接](https://leetcode-cn.com/problems/reverse-string/)
 
+[349-两个数组的交集](src/question349/LeetCode349.java)--->[leetcode链接](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
+
 [371-两整数之和](src/question371/LeetCode371.java)--->[leetcode链接](https://leetcode-cn.com/problems/sum-of-two-integers/)
 
 [392-判断子序列](src/question392/LeetCode392.java)--->[leetcode链接](https://leetcode-cn.com/problems/is-subsequence/)
