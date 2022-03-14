@@ -206,6 +206,8 @@
 
 [349-两个数组的交集](src/question349/LeetCode349.java)--->[leetcode链接](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
 
+[350-两个数组的交集II](src/question350/LeetCode350.java)--->[leetcode链接](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)
+
 [371-两整数之和](src/question371/LeetCode371.java)--->[leetcode链接](https://leetcode-cn.com/problems/sum-of-two-integers/)
 
 [392-判断子序列](src/question392/LeetCode392.java)--->[leetcode链接](https://leetcode-cn.com/problems/is-subsequence/)
