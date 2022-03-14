@@ -230,6 +230,8 @@
 
 [590-N 叉树的后序遍历](src/question590/LeetCode590.java)--->[leetcode链接](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/)
 
+[599-两个列表的最小索引总和](src/question599/LeetCode599.java)--->[leetcode链接](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/)
+
 [617-合并二叉树](src/question617/LeetCode617.java)--->[leetcode链接](https://leetcode-cn.com/problems/merge-two-binary-trees/)
 
 [678-有效的括号字符串](src/question678/LeetCode678.java)--->[leetcode链接](https://leetcode-cn.com/problems/valid-parenthesis-string/)
