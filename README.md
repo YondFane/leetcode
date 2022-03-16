@@ -242,6 +242,8 @@
 
 [695-岛屿的最大面积](src/question695/LeetCode695.java)--->[leetcode链接](https://leetcode-cn.com/problems/max-area-of-island/)
 
+[700-二叉搜索树中的搜索](src/question700/LeetCode700.java)--->[leetcode链接](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)
+
 [704-二分查找](src/question704/LeetCode704.java)--->[leetcode链接](https://leetcode-cn.com/problems/binary-search/)
 
 [725-分隔链表](src/question725/LeetCode725.java)--->[leetcode链接](https://leetcode-cn.com/problems/split-linked-list-in-parts/)
