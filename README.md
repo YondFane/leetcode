@@ -230,6 +230,8 @@
 
 [557-反转字符串中的单词 III](src/question557/LeetCode557.java)--->[leetcode链接](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)
 
+[559- N 叉树的最大深度](src/question559/LeetCode559.java)--->[leetcode链接](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)
+
 [567-字符串的排列](src/question567/LeetCode567.java)--->[leetcode链接](https://leetcode-cn.com/problems/permutation-in-string/)
 
 [590-N 叉树的后序遍历](src/question590/LeetCode590.java)--->[leetcode链接](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/)
