@@ -188,6 +188,8 @@
 
 [257-二叉树的所有路径](src/question257/LeetCode257.java)--->[leetcode链接](https://leetcode-cn.com/problems/binary-tree-paths/)
 
+[258-各位相加](src/question258/LeetCode258.java)--->[leetcode链接](https://leetcode-cn.com/problems/add-digits/)
+
 [268-丢失的数字](src/question268/LeetCode268.java)--->[leetcode链接](https://leetcode-cn.com/problems/missing-number/)
 
 [278-第一个错误的版本](src/question278/LeetCode278.java)--->[leetcode链接](https://leetcode-cn.com/problems/first-bad-version/)
