@@ -274,3 +274,5 @@
 
 [1394-找出数组中的幸运数](src/question1394/LeetCode1394.java)--->[leetcode链接](https://leetcode-cn.com/problems/find-lucky-integer-in-an-array/)
 
+[2043-简易银行系统](src/question2043/LeetCode2043.java)--->[leetcode链接](https://leetcode-cn.com/problems/simple-bank-system/)
+
