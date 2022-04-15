@@ -194,6 +194,8 @@
 
 [263-丑数](src/question263/LeetCode263.java)--->[leetcode链接](https://leetcode-cn.com/problems/ugly-number/)
 
+[264-丑数II](src/question264/LeetCode264.java)--->[leetcode链接](https://leetcode-cn.com/problems/ugly-number-ii/)
+
 [268-丢失的数字](src/question268/LeetCode268.java)--->[leetcode链接](https://leetcode-cn.com/problems/missing-number/)
 
 [278-第一个错误的版本](src/question278/LeetCode278.java)--->[leetcode链接](https://leetcode-cn.com/problems/first-bad-version/)
