@@ -224,6 +224,8 @@
 
 [397-整数替换](src/question397/LeetCode397.java)--->[leetcode链接](https://leetcode-cn.com/problems/integer-replacement/)
 
+[398-随机数索引](src/question398/LeetCode398.java)--->[leetcode链接](https://leetcode-cn.com/problems/random-pick-index/)
+
 [402-移掉K位数字](src/question402/LeetCode402.java)--->[leetcode链接](https://leetcode-cn.com/problems/remove-k-digits/)
 
 [404-左叶子之和](src/question404/LeetCode404.java)--->[leetcode链接](https://leetcode-cn.com/problems/sum-of-left-leaves/)
