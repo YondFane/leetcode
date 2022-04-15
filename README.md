@@ -290,3 +290,5 @@
 
 [2043-简易银行系统](src/question2043/LeetCode2043.java)--->[leetcode链接](https://leetcode-cn.com/problems/simple-bank-system/)
 
+[2231-按奇偶性交换后的最大数字](src/question2231/LeetCode2231.java)--->[leetcode链接](https://leetcode-cn.com/problems/largest-number-after-digit-swaps-by-parity/)
+
