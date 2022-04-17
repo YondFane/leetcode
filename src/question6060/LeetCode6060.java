@@ -35,6 +35,8 @@ class Solution {
         for (int i : nums) {
             if (Math.abs(i) < Math.abs(res)) {
                 res = i;
+            } else if (Math.abs(i) == Math.abs(res)){
+                res = Math.max(i, res);
             }
         }
         return res;
