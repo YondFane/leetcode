@@ -1,4 +1,5 @@
 # LeetCode 算法解题
+## [二叉树的前中后序遍历](二叉树的前中后序遍历.md)
 
 [1-两数之和](src/question1/LeetCode1.java)--->[leetcode链接](https://leetcode-cn.com/problems/two-sum/)
 
@@ -90,6 +91,8 @@
 
 [67-二进制求和](src/question67/LeetCode67.java)--->[leetcode链接](https://leetcode-cn.com/problems/add-binary/)
 
+[69-x 的平方根](src/question69/LeetCode69.java)--->[leetcode链接](https://leetcode-cn.com/problems/sqrtx/)
+
 [70-爬楼梯](src/question70/LeetCode70.java)--->[leetcode链接](https://leetcode-cn.com/problems/climbing-stairs/)
 
 [75-颜色分类](src/question75/LeetCode75.java)--->[leetcode链接](https://leetcode-cn.com/problems/sort-colors/)
@@ -124,6 +127,10 @@
 
 [116-填充每个节点的下一个右侧节点指针](src/question116/LeetCode116.java)--->[leetcode链接](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)
 
+[119-杨辉三角 II](src/question119/LeetCode119.java)--->[leetcode链接](https://leetcode-cn.com/problems/pascals-triangle-ii/)
+
+[120-三角形最小路径和](src/question120/LeetCode120.java)--->[leetcode链接](https://leetcode-cn.com/problems/triangle/)
+
 [122-买卖股票的最佳时机 II](src/question122/LeetCode122.java)--->[leetcode链接](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
 
 [133-克隆图](src/question133/LeetCode133.java)--->[leetcode链接](https://leetcode-cn.com/problems/clone-graph/)
@@ -156,15 +163,27 @@
 
 [167-两数之和 II - 输入有序数组](src/question167/LeetCode167.java)--->[leetcode链接](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
 
+[168-Excel表列名称](src/question168/LeetCode168.java)--->[leetcode链接](https://leetcode-cn.com/problems/excel-sheet-column-title/)
+
 [179-最大数](src/question179/LeetCode179.java)--->[leetcode链接](https://leetcode-cn.com/problems/largest-number/)
 
 [187-重复的DNA序列](src/question187/LeetCode187.java)--->[leetcode链接](https://leetcode-cn.com/problems/repeated-dna-sequences/)
 
 [189-旋转数组](src/question189/LeetCode189.java)--->[leetcode链接](https://leetcode-cn.com/problems/rotate-array/)
 
+[202-快乐数](src/question202/LeetCode202.java)--->[leetcode链接](https://leetcode-cn.com/problems/happy-number/)
+
+[203-移除链表元素](src/question203/LeetCode203.java)--->[leetcode链接](https://leetcode-cn.com/problems/remove-linked-list-elements/)
+
+[205-同构字符串](src/question205/LeetCode205.java)--->[leetcode链接](https://leetcode-cn.com/problems/isomorphic-strings/)
+
 [211-添加与搜索单词 - 数据结构设计](src/question211/LeetCode211.java)--->[leetcode链接](https://leetcode-cn.com/problems/design-add-and-search-words-data-structure/)
 
 [217-存在重复元素](src/question217/LeetCode217.java)--->[leetcode链接](https://leetcode-cn.com/problems/contains-duplicate/)
+
+[220-存在重复元素 III](src/question220/LeetCode220.java)--->[leetcode链接](https://leetcode-cn.com/problems/contains-duplicate-iii/)
+
+[219-存在重复元素 II](src/question219/LeetCode219.java)--->[leetcode链接](https://leetcode-cn.com/problems/contains-duplicate-ii/)
 
 [226-翻转二叉树](src/question226/LeetCode226.java)--->[leetcode链接](https://leetcode-cn.com/problems/invert-binary-tree/)
 
@@ -175,6 +194,12 @@
 [242-有效的字母异位词](src/question242/LeetCode242.java)--->[leetcode链接](https://leetcode-cn.com/problems/valid-anagram/)
 
 [257-二叉树的所有路径](src/question257/LeetCode257.java)--->[leetcode链接](https://leetcode-cn.com/problems/binary-tree-paths/)
+
+[258-各位相加](src/question258/LeetCode258.java)--->[leetcode链接](https://leetcode-cn.com/problems/add-digits/)
+
+[263-丑数](src/question263/LeetCode263.java)--->[leetcode链接](https://leetcode-cn.com/problems/ugly-number/)
+
+[264-丑数II](src/question264/LeetCode264.java)--->[leetcode链接](https://leetcode-cn.com/problems/ugly-number-ii/)
 
 [268-丢失的数字](src/question268/LeetCode268.java)--->[leetcode链接](https://leetcode-cn.com/problems/missing-number/)
 
@@ -190,13 +215,25 @@
 
 [326-3的幂](src/question326/LeetCode326.java)--->[leetcode链接](https://leetcode-cn.com/problems/power-of-three/)
 
+[337-打家劫舍III](src/question337/LeetCode337.java)--->[leetcode链接](https://leetcode-cn.com/problems/house-robber-iii/)
+
 [344-反转字符串](src/question344/LeetCode344.java)--->[leetcode链接](https://leetcode-cn.com/problems/reverse-string/)
+
+[349-两个数组的交集](src/question349/LeetCode349.java)--->[leetcode链接](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
+
+[350-两个数组的交集II](src/question350/LeetCode350.java)--->[leetcode链接](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)
 
 [371-两整数之和](src/question371/LeetCode371.java)--->[leetcode链接](https://leetcode-cn.com/problems/sum-of-two-integers/)
 
+[389-找不同](src/question389/LeetCode389.java)--->[leetcode链接](https://leetcode-cn.com/problems/find-the-difference/)
+
 [392-判断子序列](src/question392/LeetCode392.java)--->[leetcode链接](https://leetcode-cn.com/problems/is-subsequence/)
 
+[393-UTF-8 编码验证](src/question393/LeetCode393.java)--->[leetcode链接](https://leetcode-cn.com/problems/utf-8-validation/)
+
 [397-整数替换](src/question397/LeetCode397.java)--->[leetcode链接](https://leetcode-cn.com/problems/integer-replacement/)
+
+[398-随机数索引](src/question398/LeetCode398.java)--->[leetcode链接](https://leetcode-cn.com/problems/random-pick-index/)
 
 [402-移掉K位数字](src/question402/LeetCode402.java)--->[leetcode链接](https://leetcode-cn.com/problems/remove-k-digits/)
 
@@ -212,13 +249,23 @@
 
 [557-反转字符串中的单词 III](src/question557/LeetCode557.java)--->[leetcode链接](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)
 
+[559- N 叉树的最大深度](src/question559/LeetCode559.java)--->[leetcode链接](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)
+
 [567-字符串的排列](src/question567/LeetCode567.java)--->[leetcode链接](https://leetcode-cn.com/problems/permutation-in-string/)
 
+[590-N 叉树的后序遍历](src/question590/LeetCode590.java)--->[leetcode链接](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/)
+
+[599-两个列表的最小索引总和](src/question599/LeetCode599.java)--->[leetcode链接](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/)
+
 [617-合并二叉树](src/question617/LeetCode617.java)--->[leetcode链接](https://leetcode-cn.com/problems/merge-two-binary-trees/)
+
+[653-两数之和 IV - 输入 BST](src/question653/LeetCode653.java)--->[leetcode链接](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/)
 
 [678-有效的括号字符串](src/question678/LeetCode678.java)--->[leetcode链接](https://leetcode-cn.com/problems/valid-parenthesis-string/)
 
 [695-岛屿的最大面积](src/question695/LeetCode695.java)--->[leetcode链接](https://leetcode-cn.com/problems/max-area-of-island/)
+
+[700-二叉搜索树中的搜索](src/question700/LeetCode700.java)--->[leetcode链接](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)
 
 [704-二分查找](src/question704/LeetCode704.java)--->[leetcode链接](https://leetcode-cn.com/problems/binary-search/)
 
@@ -238,9 +285,23 @@
 
 [977-有序数组的平方](src/question977/LeetCode977.java)--->[leetcode链接](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)
 
+[1022-从根到叶的二进制数之和](src/question1022/LeetCode1022.java)--->[leetcode链接](https://leetcode-cn.com/problems/sum-of-root-to-leaf-binary-numbers/)
+
 [1081-不同字符的最小子序列](src/question1081/LeetCode1081.java)--->[leetcode链接](https://leetcode-cn.com/problems/smallest-subsequence-of-distinct-characters/)
 
 [1137-第 N 个泰波那契数](src/question1137/LeetCode1137.java)--->[leetcode链接](https://leetcode-cn.com/problems/sort-the-matrix-diagonally/)
 
 [1329-将矩阵按对角线排序](src/question1329/LeetCode1329.java)--->[leetcode链接](https://leetcode-cn.com/problems/sort-the-matrix-diagonally/)
+
+[1365-有多少小于当前数字的数字](src/question1365/LeetCode1365.java)--->[leetcode链接](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
+
+[1394-找出数组中的幸运数](src/question1394/LeetCode1394.java)--->[leetcode链接](https://leetcode-cn.com/problems/find-lucky-integer-in-an-array/)
+
+[2043-简易银行系统](src/question2043/LeetCode2043.java)--->[leetcode链接](https://leetcode-cn.com/problems/simple-bank-system/)
+
+[2231-按奇偶性交换后的最大数字](src/question2231/LeetCode2231.java)--->[leetcode链接](https://leetcode-cn.com/problems/largest-number-after-digit-swaps-by-parity/)
+
+[6060-找到最接近 0 的数字](src/question6060/LeetCode6060.java)--->[leetcode链接](https://leetcode-cn.com/problems/find-closest-number-to-zero/)
+
+[6061-买钢笔和铅笔的方案数](src/question6061/LeetCode6061.java)--->[leetcode链接](https://leetcode-cn.com/problems/number-of-ways-to-buy-pens-and-pencils/)
 
