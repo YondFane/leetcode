@@ -231,6 +231,8 @@
 
 [393-UTF-8 编码验证](src/question393/LeetCode393.java)--->[leetcode链接](https://leetcode-cn.com/problems/utf-8-validation/)
 
+[396-旋转函数](src/question396/LeetCode396.java)--->[leetcode链接](https://leetcode-cn.com/problems/rotate-function/)
+
 [397-整数替换](src/question397/LeetCode397.java)--->[leetcode链接](https://leetcode-cn.com/problems/integer-replacement/)
 
 [398-随机数索引](src/question398/LeetCode398.java)--->[leetcode链接](https://leetcode-cn.com/problems/random-pick-index/)
