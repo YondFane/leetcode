@@ -311,6 +311,8 @@
 
 [1394-找出数组中的幸运数](src/question1394/LeetCode1394.java)--->[leetcode链接](https://leetcode-cn.com/problems/find-lucky-integer-in-an-array/)
 
+[1582-二进制矩阵中的特殊位置](src/question1582/LeetCode1582.java)--->[leetcode链接](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/)
+
 [2043-简易银行系统](src/question2043/LeetCode2043.java)--->[leetcode链接](https://leetcode-cn.com/problems/simple-bank-system/)
 
 [2051-花期内花的数目](src/question2051/LeetCode2051.java)--->[leetcode链接](https://leetcode-cn.com/problems/number-of-flowers-in-full-bloom/)
