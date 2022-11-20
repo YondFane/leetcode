@@ -287,6 +287,8 @@
 
 [746-使用最小花费爬楼梯](src/question746/LeetCode746.java)--->[leetcode链接](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)
 
+[799-香槟塔](src/question799/LeetCode799.java)--->[leetcode链接](https://leetcode.cn/problems/champagne-tower/description/)
+
 [867-转置矩阵](src/question867/LeetCode867.java)--->[leetcode链接](https://leetcode-cn.com/problems/transpose-matrix/)
 
 [876-链表的中间结点](src/question876/LeetCode876.java)--->[leetcode链接](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
