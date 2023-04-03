@@ -249,6 +249,8 @@
 
 [455-分发饼干](src/question455/LeetCode455.java)--->[leetcode链接](https://leetcode.cn/problems/assign-cookies/description/)
 
+[477-汉明距离总和](src/question477/LeetCode477.java)--->[leetcode链接](https://leetcode.cn/problems/total-hamming-distance/description/)
+
 [509-斐波那契数](src/question509/LeetCode509.java)--->[leetcode链接](https://leetcode-cn.com/problems/fibonacci-number/)
 
 [524-通过删除字母匹配到字典里最长单词](src/question524/LeetCode524.java)--->[leetcode链接](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/)
