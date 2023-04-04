@@ -107,6 +107,8 @@
 
 [84-柱状图中最大的矩形](src/question84/LeetCode84.java)--->[leetcode链接](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
 
+[86-分隔链表](src/question86/LeetCode86.java)--->[leetcode链接](https://leetcode.cn/problems/partition-list/description/)
+
 [88-合并两个有序数组](src/question88/LeetCode88.java)--->[leetcode链接](https://leetcode-cn.com/problems/merge-sorted-array/)
 
 [90-子集II](src/question90/LeetCode90.java)--->[leetcode链接](https://leetcode-cn.com/problems/subsets-ii/)
