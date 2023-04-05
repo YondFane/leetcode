@@ -77,6 +77,8 @@
 
 [55-跳跃游戏](src/question55/LeetCode55.java)--->[leetcode链接](https://leetcode-cn.com/problems/jump-game/)
 
+[56-合并区间](src/question56/LeetCode56.java)--->[leetcode链接](https://leetcode.cn/problems/merge-intervals/description/)
+
 [57-插入区间](src/question57/LeetCode57.java)--->[leetcode链接](https://leetcode-cn.com/problems/insert-interval/)
 
 [61-旋转链表](src/question61/LeetCode61.java)--->[leetcode链接](https://leetcode-cn.com/problems/rotate-list/)
