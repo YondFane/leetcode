@@ -213,6 +213,8 @@
 
 [274-H 指数](src/question274/LeetCode274.java)--->[leetcode链接](https://leetcode.cn/problems/h-index/description/)
 
+[275-H 指数 II](src/question275/LeetCode275.java)--->[leetcode链接](https://leetcode.cn/problems/h-index-ii/description/)
+
 [278-第一个错误的版本](src/question278/LeetCode278.java)--->[leetcode链接](https://leetcode-cn.com/problems/first-bad-version/)
 
 [283-移动零](src/question283/LeetCode283.java)--->[leetcode链接](https://leetcode-cn.com/problems/move-zeroes/)
