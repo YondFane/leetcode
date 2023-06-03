@@ -211,6 +211,8 @@
 
 [268-丢失的数字](src/question268/LeetCode268.java)--->[leetcode链接](https://leetcode-cn.com/problems/missing-number/)
 
+[274-H 指数](src/question274/LeetCode274.java)--->[leetcode链接](https://leetcode.cn/problems/h-index/description/)
+
 [278-第一个错误的版本](src/question278/LeetCode278.java)--->[leetcode链接](https://leetcode-cn.com/problems/first-bad-version/)
 
 [283-移动零](src/question283/LeetCode283.java)--->[leetcode链接](https://leetcode-cn.com/problems/move-zeroes/)
