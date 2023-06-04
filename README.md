@@ -335,6 +335,8 @@
 
 [1732-找到最高海拔](src/question1732/LeetCode1732.java)--->[leetcode链接](https://leetcode.cn/problems/find-the-highest-altitude/description/)
 
+[1877-数组中最大数对和的最小值](src/question1877/LeetCode1877.java)--->[leetcode链接](https://leetcode.cn/problems/minimize-maximum-pair-sum-in-array/description/)
+
 [2043-简易银行系统](src/question2043/LeetCode2043.java)--->[leetcode链接](https://leetcode-cn.com/problems/simple-bank-system/)
 
 [2051-花期内花的数目](src/question2051/LeetCode2051.java)--->[leetcode链接](https://leetcode-cn.com/problems/number-of-flowers-in-full-bloom/)
