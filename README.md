@@ -327,6 +327,8 @@
 
 [1329-将矩阵按对角线排序](src/question1329/LeetCode1329.java)--->[leetcode链接](https://leetcode-cn.com/problems/sort-the-matrix-diagonally/)
 
+[1361-验证二叉树](src/question1361/LeetCode1361.java)--->[leetcode链接](https://leetcode.cn/problems/validate-binary-tree-nodes/description/)
+
 [1365-有多少小于当前数字的数字](src/question1365/LeetCode1365.java)--->[leetcode链接](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
 
 [1394-找出数组中的幸运数](src/question1394/LeetCode1394.java)--->[leetcode链接](https://leetcode-cn.com/problems/find-lucky-integer-in-an-array/)
