@@ -1,4 +1,4 @@
-package src.LeetCode1877;
+package src.question1877;
 
 import java.util.Arrays;
 
