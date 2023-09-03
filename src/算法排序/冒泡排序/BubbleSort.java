@@ -3,10 +3,17 @@ package src.算法排序.冒泡排序;
 import java.util.Arrays;
 
 /**
- * @Description //TODO
+ * @Description 冒泡排序
+ * 遍历若干次要排序的数列，每次遍历时，都会从前往后依次的比较相邻两个数的大小；
+ * 如果前者比后者大，则交换它们的位置。
+ * 这样，一次遍历之后，最大的元素就在数列的末尾！
+ * 采用相同的方法再次遍历时，第二大的元素就被排列在最大元素之前。
+ * 重复此操作，直到整个数列都有序为止
+ *
+ * 时间复杂度 O(n^2)
+ * 算法稳定
  * @Author YFAN
  * @Date 2021/6/4
- * 时间复杂度 O(n^2)
  */
 public class BubbleSort {
     public static void main(String[] args) {
