@@ -225,6 +225,8 @@
 
 [300-最长递增子序列](src/question300/LeetCode300.java)--->[leetcode链接](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
 
+[313-超级丑数](src/question313/LeetCode313.java)--->[leetcode链接](https://leetcode.cn/problems/super-ugly-number/description/)
+
 [316-去除重复字母](src/question316/LeetCode316.java)--->[leetcode链接](https://leetcode-cn.com/problems/remove-duplicate-letters/)
 
 [326-3的幂](src/question326/LeetCode326.java)--->[leetcode链接](https://leetcode-cn.com/problems/power-of-three/)
