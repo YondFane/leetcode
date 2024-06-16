@@ -277,6 +277,8 @@
 
 [509-斐波那契数](src/question509/LeetCode509.java)--->[leetcode链接](https://leetcode-cn.com/problems/fibonacci-number/)
 
+[522-最长特殊序列 II](src/question522/LeetCode522.java)--->[leetcode链接](https://leetcode.cn/problems/longest-uncommon-subsequence-ii/description/)
+
 [524-通过删除字母匹配到字典里最长单词](src/question524/LeetCode524.java)--->[leetcode链接](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/)
 
 [539-最小时间差](src/question539/LeetCode539.java)--->[leetcode链接](https://leetcode-cn.com/problems/minimum-time-difference/)
