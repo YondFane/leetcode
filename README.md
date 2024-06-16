@@ -287,6 +287,8 @@
 
 [560-和为 K 的子数组](src/question560/LeetCode560.java)--->[leetcode链接](https://leetcode.cn/problems/subarray-sum-equals-k/)
 
+[561-数组拆分](src/question561/LeetCode561.java)--->[leetcode链接](https://leetcode.cn/problems/array-partition/description/)
+
 [567-字符串的排列](src/question567/LeetCode567.java)--->[leetcode链接](https://leetcode-cn.com/problems/permutation-in-string/)
 
 [590-N 叉树的后序遍历](src/question590/LeetCode590.java)--->[leetcode链接](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/)
