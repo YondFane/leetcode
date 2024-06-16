@@ -293,6 +293,8 @@
 
 [567-字符串的排列](src/question567/LeetCode567.java)--->[leetcode链接](https://leetcode-cn.com/problems/permutation-in-string/)
 
+[581-最短无序连续子数组](src/question581/LeetCode581.java)--->[leetcode链接](https://leetcode.cn/problems/shortest-unsorted-continuous-subarray/description/)
+
 [590-N 叉树的后序遍历](src/question590/LeetCode590.java)--->[leetcode链接](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/)
 
 [599-两个列表的最小索引总和](src/question599/LeetCode599.java)--->[leetcode链接](https://leetcode-cn.com/problems/minimum-index-sum-of-two-lists/)
