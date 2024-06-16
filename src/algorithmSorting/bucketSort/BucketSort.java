@@ -1,4 +1,4 @@
-package src.算法排序.桶排序;
+package src.algorithmSorting.bucketSort;
 
 /**
  * @Description: 桶排序

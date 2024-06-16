@@ -1,4 +1,4 @@
-package src.算法排序.希尔排序;
+package src.algorithmSorting.shellSort;
 
 import java.util.Arrays;
 

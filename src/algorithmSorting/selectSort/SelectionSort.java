@@ -1,4 +1,4 @@
-package src.算法排序.选择排序;
+package src.algorithmSorting.selectSort;
 
 import java.util.Arrays;
 

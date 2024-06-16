@@ -1,4 +1,4 @@
-package src.算法排序.插入排序;
+package src.algorithmSorting.insertSort;
 
 import java.util.Arrays;
 

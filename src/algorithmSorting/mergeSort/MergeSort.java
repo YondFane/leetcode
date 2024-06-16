@@ -1,4 +1,4 @@
-package src.算法排序.归并排序;
+package src.algorithmSorting.mergeSort;
 
 /**
  * @Description: 归并排序

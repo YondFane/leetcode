@@ -1,4 +1,4 @@
-package src.算法排序.冒泡排序;
+package src.algorithmSorting.bubbleSort;
 
 import java.util.Arrays;
 
