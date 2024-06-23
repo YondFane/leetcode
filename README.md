@@ -343,6 +343,8 @@
 
 [1137-第 N 个泰波那契数](src/question1137/LeetCode1137.java)--->[leetcode链接](https://leetcode-cn.com/problems/sort-the-matrix-diagonally/)
 
+[1315-祖父节点值为偶数的节点和](src/question1315/LeetCode1315.java)--->[leetcode链接](https://leetcode.cn/problems/sum-of-nodes-with-even-valued-grandparent/description/)
+
 [1329-将矩阵按对角线排序](src/question1329/LeetCode1329.java)--->[leetcode链接](https://leetcode-cn.com/problems/sort-the-matrix-diagonally/)
 
 [1361-验证二叉树](src/question1361/LeetCode1361.java)--->[leetcode链接](https://leetcode.cn/problems/validate-binary-tree-nodes/description/)
