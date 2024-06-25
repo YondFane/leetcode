@@ -301,6 +301,8 @@
 
 [617-合并二叉树](src/question617/LeetCode617.java)--->[leetcode链接](https://leetcode-cn.com/problems/merge-two-binary-trees/)
 
+[637-二叉树的层平均值](src/question637/LeetCode637.java)--->[leetcode链接](https://leetcode.cn/problems/average-of-levels-in-binary-tree)
+
 [653-两数之和 IV - 输入 BST](src/question653/LeetCode653.java)--->[leetcode链接](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/)
 
 [662-二叉树最大宽度](src/question662/LeetCode662.java)--->[leetcode链接](https://leetcode.cn/problems/maximum-width-of-binary-tree/)
