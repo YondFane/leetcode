@@ -343,6 +343,8 @@
 
 [977-有序数组的平方](src/question977/LeetCode977.java)--->[leetcode链接](https://leetcode-cn.com/problems/squares-of-a-sorted-array/)
 
+[979-在二叉树中分配硬币](src/question979/LeetCode979.java)--->[leetcode链接](https://leetcode.cn/problems/distribute-coins-in-binary-tree/)
+
 [1022-从根到叶的二进制数之和](src/question1022/LeetCode1022.java)--->[leetcode链接](https://leetcode-cn.com/problems/sum-of-root-to-leaf-binary-numbers/)
 
 [1081-不同字符的最小子序列](src/question1081/LeetCode1081.java)--->[leetcode链接](https://leetcode-cn.com/problems/smallest-subsequence-of-distinct-characters/)
