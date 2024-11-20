@@ -221,6 +221,8 @@
 
 [283-移动零](src/question283/LeetCode283.java)--->[leetcode链接](https://leetcode-cn.com/problems/move-zeroes/)
 
+[290-单词规律](src/question290/LeetCode290.java)--->[leetcode链接](https://leetcode.cn/problems/word-pattern)
+
 [299-猜数字游戏](src/question299/LeetCode299.java)--->[leetcode链接](https://leetcode-cn.com/problems/bulls-and-cows/)
 
 [300-最长递增子序列](src/question300/LeetCode300.java)--->[leetcode链接](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
