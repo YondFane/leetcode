@@ -8,7 +8,7 @@ import java.util.List;
 * @Description:
 * @Author: YFAN
 * @Date: 2021/5/13/013
- * 给定一个二叉树，返回它的 后序 遍历。
+ * 给定一个二叉树，返回它的 后序 遍历。
  * 示例:
  * 输入: [1,null,2,3]
  *    1
@@ -17,7 +17,7 @@ import java.util.List;
  *     /
  *    3
  * 输出: [3,2,1]
- * 进阶: 递归算法很简单，你可以通过迭代算法完成吗？
+ * 进阶: 递归算法很简单，你可以通过迭代算法完成吗？
 */
 public class LeetCode145 {
     public static void main(String[] args) {
