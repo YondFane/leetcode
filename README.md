@@ -373,6 +373,8 @@
 
 [1582-二进制矩阵中的特殊位置](src/question1582/LeetCode1582.java)--->[leetcode链接](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/)
 
+[1614-括号的最大嵌套深度](src/question1614/LeetCode1614.java)--->[leetcode链接](https://leetcode.cn/problems/maximum-nesting-depth-of-the-parentheses/)
+
 [1732-找到最高海拔](src/question1732/LeetCode1732.java)--->[leetcode链接](https://leetcode.cn/problems/find-the-highest-altitude/description/)
 
 [1877-数组中最大数对和的最小值](src/question1877/LeetCode1877.java)--->[leetcode链接](https://leetcode.cn/problems/minimize-maximum-pair-sum-in-array/description/)
