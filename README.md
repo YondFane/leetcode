@@ -183,6 +183,8 @@
 
 [203-移除链表元素](src/question203/LeetCode203.java)--->[leetcode链接](https://leetcode-cn.com/problems/remove-linked-list-elements/)
 
+[204-计数质数](src/question204/LeetCode204.java)--->[leetcode链接](https://leetcode.cn/problems/count-primes)
+
 [205-同构字符串](src/question205/LeetCode205.java)--->[leetcode链接](https://leetcode-cn.com/problems/isomorphic-strings/)
 
 [206-反转链表](src/question206/LeetCode206.java)--->[leetcode链接](https://leetcode.cn/problems/reverse-linked-list/)
