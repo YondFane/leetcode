@@ -175,6 +175,8 @@
 
 [168-Excel表列名称](src/question168/LeetCode168.java)--->[leetcode链接](https://leetcode-cn.com/problems/excel-sheet-column-title/)
 
+[169-多数元素](src/question169/LeetCode169.java)--->[leetcode链接](https://leetcode.cn/problems/majority-element)
+
 [179-最大数](src/question179/LeetCode179.java)--->[leetcode链接](https://leetcode-cn.com/problems/largest-number/)
 
 [187-重复的DNA序列](src/question187/LeetCode187.java)--->[leetcode链接](https://leetcode-cn.com/problems/repeated-dna-sequences/)
