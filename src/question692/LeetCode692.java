@@ -42,8 +42,8 @@ public class LeetCode692 {
         int k = 4;
         System.out.println(solution.topKFrequent(strs, k));
 
-
-
+        Solution2 solution2 = new Solution2();
+        System.out.println(solution2.topKFrequent(strs, k));
 
     }
 }
@@ -63,5 +63,22 @@ class Solution {
             }
         });
         return rec.subList(0, k);
+    }
+}
+
+class Solution2 {
+    public List<String> topKFrequent(String[] words, int k) {
+        Map<String, Integer> map = new HashMap<>();
+        for (String word : words) {
+            map.put(word, map.getOrDefault(word, 0) + 1);
+        }
+
+        PriorityQueue<String> priorityQueue = new PriorityQueue<>((w1, w2) -> map.get(w1) == map.get(w2) ? w1.compareTo(w2) : map.get(w2) - map.get(w1));
+        map.forEach((a, b)-> priorityQueue.add(a));
+        List<String> res = new ArrayList<>();
+        while (!priorityQueue.isEmpty() && k-- > 0) {
+            res.add(priorityQueue.poll());
+        }
+        return res;
     }
 }
