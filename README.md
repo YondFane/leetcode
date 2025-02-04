@@ -329,6 +329,8 @@
 
 [678-有效的括号字符串](src/question678/LeetCode678.java)--->[leetcode链接](https://leetcode-cn.com/problems/valid-parenthesis-string/)
 
+[692-前K个高频单词](src/question692/LeetCode692.java)--->[leetcode链接](https://leetcode.cn/problems/top-k-frequent-words/)
+
 [695-岛屿的最大面积](src/question695/LeetCode695.java)--->[leetcode链接](https://leetcode-cn.com/problems/max-area-of-island/)
 
 [700-二叉搜索树中的搜索](src/question700/LeetCode700.java)--->[leetcode链接](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)
