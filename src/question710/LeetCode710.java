@@ -1,7 +1,5 @@
 package src.question710;
 
-import org.omg.PortableInterceptor.INACTIVE;
-
 import java.util.*;
 
 /**

@@ -321,6 +321,8 @@
 
 [617-合并二叉树](src/question617/LeetCode617.java)--->[leetcode链接](https://leetcode-cn.com/problems/merge-two-binary-trees/)
 
+[622-设计循环队列](src/question622/LeetCode622.java)--->[leetcode链接](https://leetcode.cn/problems/design-circular-queue)
+
 [637-二叉树的层平均值](src/question637/LeetCode637.java)--->[leetcode链接](https://leetcode.cn/problems/average-of-levels-in-binary-tree)
 
 [653-两数之和 IV - 输入 BST](src/question653/LeetCode653.java)--->[leetcode链接](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/)
