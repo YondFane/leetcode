@@ -405,6 +405,8 @@
 
 [2231-按奇偶性交换后的最大数字](src/question2231/LeetCode2231.java)--->[leetcode链接](https://leetcode-cn.com/problems/largest-number-after-digit-swaps-by-parity/)
 
+[2336-无限集中的最小数字](src/question2336/LeetCode2336.java)--->[leetcode链接](https://leetcode.cn/problems/smallest-number-in-infinite-set)
+
 [2465-按奇偶性交换后的最大数字](src/question2465/LeetCode2465.java)--->[leetcode链接](https://leetcode.cn/problems/number-of-distinct-averages/description/)
 
 [6060-找到最接近 0 的数字](src/question6060/LeetCode6060.java)--->[leetcode链接](https://leetcode-cn.com/problems/find-closest-number-to-zero/)
