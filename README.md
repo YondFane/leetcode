@@ -297,6 +297,8 @@
 
 [513-找树左下角的值](src/question513/LeetCode513.java)--->[leetcode链接](https://leetcode.cn/problems/find-bottom-left-tree-value/description/)
 
+[515-在每个树行中找最大值](src/question515/LeetCode515.java)--->[leetcode链接](https://leetcode.cn/problems/find-largest-value-in-each-tree-row)
+
 [522-最长特殊序列 II](src/question522/LeetCode522.java)--->[leetcode链接](https://leetcode.cn/problems/longest-uncommon-subsequence-ii/description/)
 
 [524-通过删除字母匹配到字典里最长单词](src/question524/LeetCode524.java)--->[leetcode链接](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/)
