@@ -305,6 +305,8 @@
 
 [539-最小时间差](src/question539/LeetCode539.java)--->[leetcode链接](https://leetcode-cn.com/problems/minimum-time-difference/)
 
+[546-移除盒子](src/question546/LeetCode546.java)--->[leetcode链接](https://leetcode.cn/problems/remove-boxes)
+
 [557-反转字符串中的单词 III](src/question557/LeetCode557.java)--->[leetcode链接](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)
 
 [559-N叉树的最大深度](src/question559/LeetCode559.java)--->[leetcode链接](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)
