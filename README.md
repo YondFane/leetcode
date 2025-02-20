@@ -263,6 +263,8 @@
 
 [393-UTF-8 编码验证](src/question393/LeetCode393.java)--->[leetcode链接](https://leetcode-cn.com/problems/utf-8-validation/)
 
+[394-字符串解码](src/question394/LeetCode394.java)--->[leetcode链接](https://leetcode.cn/problems/decode-string)
+
 [396-旋转函数](src/question396/LeetCode396.java)--->[leetcode链接](https://leetcode-cn.com/problems/rotate-function/)
 
 [397-整数替换](src/question397/LeetCode397.java)--->[leetcode链接](https://leetcode-cn.com/problems/integer-replacement/)
