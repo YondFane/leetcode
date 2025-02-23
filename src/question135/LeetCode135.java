@@ -35,7 +35,9 @@ package src.question135;
 public class LeetCode135 {
 
     public static void main(String[] args) {
-        int[] nums = new int[]{1, 2, 3, 4, 5};
+        int[] nums = new int[]{1, 2, 3, 4, 7, 6, 5, 4, 3, 2, 1};
+        Solution solution = new Solution();
+        System.out.println(solution.candy(nums));
 
     }
 
