@@ -259,6 +259,8 @@
 
 [371-两整数之和](src/question371/LeetCode371.java)--->[leetcode链接](https://leetcode-cn.com/problems/sum-of-two-integers/)
 
+[372-超级次方](src/question372/LeetCode372.java)--->[leetcode链接](https://leetcode.cn/problems/super-pow)
+
 [383-赎金信](src/question383/LeetCode383.java)--->[leetcode链接](https://leetcode.cn/problems/ransom-not)
 
 [389-找不同](src/question389/LeetCode389.java)--->[leetcode链接](https://leetcode-cn.com/problems/find-the-difference/)
