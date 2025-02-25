@@ -417,6 +417,8 @@
 
 [1921-消灭怪物的最大数量](src/question1921/LeetCode1921.java)--->[leetcode链接](https://leetcode.cn/problems/eliminate-maximum-number-of-monsters/description/)
 
+[1985-找出数组中的第K大整数](src/question1985/LeetCode1985.java)--->[leetcode链接](https://leetcode.cn/problems/find-the-kth-largest-integer-in-the-array)
+
 [2043-简易银行系统](src/question2043/LeetCode2043.java)--->[leetcode链接](https://leetcode-cn.com/problems/simple-bank-system/)
 
 [2051-花期内花的数目](src/question2051/LeetCode2051.java)--->[leetcode链接](https://leetcode-cn.com/problems/number-of-flowers-in-full-bloom/)
