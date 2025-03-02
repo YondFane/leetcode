@@ -253,6 +253,8 @@
 
 [344-反转字符串](src/question344/LeetCode344.java)--->[leetcode链接](https://leetcode-cn.com/problems/reverse-string/)
 
+[347-前 K 个高频元素](src/question347/LeetCode347.java)--->[leetcode链接](https://leetcode.cn/problems/top-k-frequent-elements/)
+
 [349-两个数组的交集](src/question349/LeetCode349.java)--->[leetcode链接](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
 
 [350-两个数组的交集II](src/question350/LeetCode350.java)--->[leetcode链接](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)
