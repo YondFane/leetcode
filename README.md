@@ -433,6 +433,8 @@
 
 [2465-按奇偶性交换后的最大数字](src/question2465/LeetCode2465.java)--->[leetcode链接](https://leetcode.cn/problems/number-of-distinct-averages/description/)
 
+[3306-元音辅音字符串计数 II](src/question3306/LeetCode3306.java)--->[leetcode链接](https://leetcode.cn/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii)
+
 [6060-找到最接近 0 的数字](src/question6060/LeetCode6060.java)--->[leetcode链接](https://leetcode-cn.com/problems/find-closest-number-to-zero/)
 
 [6061-买钢笔和铅笔的方案数](src/question6061/LeetCode6061.java)--->[leetcode链接](https://leetcode-cn.com/problems/number-of-ways-to-buy-pens-and-pencils/)
