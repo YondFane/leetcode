@@ -395,6 +395,8 @@
 
 [1081-不同字符的最小子序列](src/question1081/LeetCode1081.java)--->[leetcode链接](https://leetcode-cn.com/problems/smallest-subsequence-of-distinct-characters/)
 
+[1079-活字印刷](src/question1079/LeetCode1079.java)--->[leetcode链接](https://leetcode.cn/problems/letter-tile-possibilities)
+
 [1090-受标签影响的最大值](src/question1090/LeetCode1090.java)--->[leetcode链接](https://leetcode.cn/problems/largest-values-from-labels)
 
 [1137-第 N 个泰波那契数](src/question1137/LeetCode1137.java)--->[leetcode链接](https://leetcode-cn.com/problems/sort-the-matrix-diagonally/)
