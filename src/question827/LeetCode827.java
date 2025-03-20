@@ -42,9 +42,9 @@ public class LeetCode827 {
     public static void main(String[] args) {
         Solution solution = new Solution();
 
-//        System.out.println(solution.largestIsland(new int[][]{{1, 0}, {0, 1}}));// 3
+        System.out.println(solution.largestIsland(new int[][]{{1, 0}, {0, 1}}));// 3
 
-//        System.out.println(solution.largestIsland(new int[][]{{1, 1}, {1, 1}}));// 4
+        System.out.println(solution.largestIsland(new int[][]{{1, 1}, {1, 1}}));// 4
 
         System.out.println(solution.largestIsland(new int[][]{
                 {0,0,0,0,0,0,0},{0,1,1,1,1,0,0},{0,1,0,0,1,0,0},{1,0,1,0,1,0,0},{0,1,0,0,1,0,0},{0,1,0,0,1,0,0},{0,1,1,1,1,0,0}
@@ -54,9 +54,116 @@ public class LeetCode827 {
 }
 
 /**
- * 超时解答
+ 消耗内存分布
+ 74.62
+ MB
+ 击败
+ 56.42%
  */
 class Solution {
+    // 岛屿计数:-1开始降序计数
+    int t = -1;
+    int res = 0;
+    int col = 0;
+    int row = 0;
+
+    Set<Integer> set = new HashSet<>();
+    // key 岛屿编号 value 面积
+    Map<Integer, Integer> map = new HashMap<>();
+
+    public int largestIsland(int[][] grid) {
+        row = grid.length;
+        col = grid[0].length;
+        // 记录岛屿编号
+        int[][] tag = new int[row][col];
+        // 标记岛屿
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[i].length; j++) {
+                if (grid[i][j] != 0 && tag[i][j] == 0) {
+                    int no = i * col + j + 1;
+                    // 计算岛屿面积
+                    set.clear();
+                    int sum = dfs(grid, i, j, tag, no);
+                    map.put(no, sum);
+                    res = Math.max(res, sum);
+                }
+            }
+        }
+        // 连通岛屿，算出最大面积
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[i].length; j++) {
+                // 连通岛屿编号集合
+                Set<Integer> noSet = new HashSet<>();
+                int sum = 1;
+                if (grid[i][j] == 0) {
+                    int x = i;
+                    int y = j;
+                    // 连通上下左右四个岛屿
+                    // 上
+                    x = i;
+                    y = j -1;
+                    if (validate(x, y) && !noSet.contains(tag[x][y])) {
+                        sum += map.getOrDefault(tag[x][y], 0);
+                        noSet.add(tag[x][y]);
+                    }
+                    // 下
+                    x = i;
+                    y = j + 1;
+                    if (validate(x, y) && !noSet.contains(tag[x][y])) {
+                        sum += map.getOrDefault(tag[x][y], 0);
+                        noSet.add(tag[x][y]);
+                    }
+                    // 左
+                    x = i - 1;
+                    y = j;
+                    if (validate(x, y) && !noSet.contains(tag[x][y])) {
+                        sum += map.getOrDefault(tag[x][y], 0);
+                        noSet.add(tag[x][y]);
+                    }
+                    // 右
+                    x = i + 1;
+                    y = j;
+                    if (validate(x, y) && !noSet.contains(tag[x][y])) {
+                        sum += map.getOrDefault(tag[x][y], 0);
+                        noSet.add(tag[x][y]);
+                    }
+                }
+                res = Math.max(res, sum);
+            }
+        }
+        return res;
+    }
+
+    public int dfs(int[][] grid, int x, int y, int[][] tag, int no) {
+        if (x < 0 || y < 0 || y >= col || x >= row || grid[x][y] == 0 || set.contains(grid[x][y])) {
+            return 0;
+        }
+        grid[x][y] = t--;
+        tag[x][y] = no;
+        int sum = 1;
+        set.add(grid[x][y]);
+        // 上
+        sum += dfs(grid, x, y - 1, tag, no);
+        // 下
+        sum += dfs(grid, x, y + 1, tag, no);
+        // 左
+        sum += dfs(grid, x - 1, y, tag, no);
+        // 右
+        sum += dfs(grid, x + 1, y, tag, no);
+        return sum;
+    }
+
+    public boolean validate(int x, int y) {
+        return x >= 0 && y >= 0 && x < row && y < col;
+    }
+}
+
+
+/**
+ * 第一版解答
+ * 超时解答
+ */
+class Solution3 {
     // 岛屿计数:-1开始降序计数
     int t = -1;
     int res = 0;
@@ -136,7 +243,9 @@ class Solution2 {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == 1 && tag[i][j] == 0) {
+                    // 每个岛屿编号
                     int t = i * n + j + 1;
+                    // key 岛屿编号 value 岛屿面积
                     area.put(t, dfs(grid, i, j, tag, t));
                     res = Math.max(res, area.get(t));
                 }
@@ -146,13 +255,16 @@ class Solution2 {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == 0) {
                     int z = 1;
+                    // 连接岛屿编号集合
                     Set<Integer> connected = new HashSet<Integer>();
                     for (int k = 0; k < 4; k++) {
                         int x = i + d[k], y = j + d[k + 1];
                         if (!valid(n, x, y) || tag[x][y] == 0 || connected.contains(tag[x][y])) {
                             continue;
                         }
+                        // 获取岛屿面积
                         z += area.get(tag[x][y]);
+                        // 添加岛屿
                         connected.add(tag[x][y]);
                     }
                     res = Math.max(res, z);
