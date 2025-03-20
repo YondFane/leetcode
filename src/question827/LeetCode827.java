@@ -61,29 +61,33 @@ public class LeetCode827 {
  56.42%
  */
 class Solution {
-    // 岛屿计数:-1开始降序计数
-    int t = -1;
     int res = 0;
     int col = 0;
     int row = 0;
 
+    // 用来标记遍历坐标
     Set<Integer> set = new HashSet<>();
     // key 岛屿编号 value 面积
+    // 主要用来节省遍历时间复杂度
     Map<Integer, Integer> map = new HashMap<>();
 
     public int largestIsland(int[][] grid) {
         row = grid.length;
         col = grid[0].length;
-        // 记录岛屿编号
+        // 地图中岛屿编号
         int[][] tag = new int[row][col];
         // 标记岛屿
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[i].length; j++) {
+                // 坐标为岛屿 且 没有记录岛屿编号
                 if (grid[i][j] != 0 && tag[i][j] == 0) {
+                    // 岛屿编号
                     int no = i * col + j + 1;
-                    // 计算岛屿面积
+                    // set用来记录遍历过的坐标，清空标记
                     set.clear();
+                    // 计算岛屿面积
                     int sum = dfs(grid, i, j, tag, no);
+                    // 记录岛屿面积
                     map.put(no, sum);
                     res = Math.max(res, sum);
                 }
@@ -95,10 +99,11 @@ class Solution {
                 // 连通岛屿编号集合
                 Set<Integer> noSet = new HashSet<>();
                 int sum = 1;
+                // 对地图上的海洋部分处理，连接上下左右岛屿面积
                 if (grid[i][j] == 0) {
                     int x = i;
                     int y = j;
-                    // 连通上下左右四个岛屿
+                    // 连通上下左右四个岛屿面积之和
                     // 上
                     x = i;
                     y = j -1;
@@ -106,21 +111,22 @@ class Solution {
                         sum += map.getOrDefault(tag[x][y], 0);
                         noSet.add(tag[x][y]);
                     }
-                    // 下
+                    // 下岛屿
                     x = i;
                     y = j + 1;
                     if (validate(x, y) && !noSet.contains(tag[x][y])) {
+                        // 获取不到岛屿，默认返回0面积
                         sum += map.getOrDefault(tag[x][y], 0);
                         noSet.add(tag[x][y]);
                     }
-                    // 左
+                    // 左岛屿
                     x = i - 1;
                     y = j;
                     if (validate(x, y) && !noSet.contains(tag[x][y])) {
                         sum += map.getOrDefault(tag[x][y], 0);
                         noSet.add(tag[x][y]);
                     }
-                    // 右
+                    // 右岛屿
                     x = i + 1;
                     y = j;
                     if (validate(x, y) && !noSet.contains(tag[x][y])) {
@@ -135,13 +141,15 @@ class Solution {
     }
 
     public int dfs(int[][] grid, int x, int y, int[][] tag, int no) {
-        if (x < 0 || y < 0 || y >= col || x >= row || grid[x][y] == 0 || set.contains(grid[x][y])) {
+        // 坐标编号
+        int xy = x * col + y + 1;
+        if (x < 0 || y < 0 || y >= col || x >= row || grid[x][y] == 0 || set.contains(xy)) {
             return 0;
         }
-        grid[x][y] = t--;
+        // 大岛屿编号
         tag[x][y] = no;
         int sum = 1;
-        set.add(grid[x][y]);
+        set.add(xy);
         // 上
         sum += dfs(grid, x, y - 1, tag, no);
         // 下
