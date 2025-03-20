@@ -46,6 +46,8 @@ public class LeetCode827 {
 
         System.out.println(solution.largestIsland(new int[][]{{1, 1}, {1, 1}}));// 4
 
+        System.out.println(solution.largestIsland(new int[][]{{1, 1}, {1, 1}}));// 4
+
         System.out.println(solution.largestIsland(new int[][]{
                 {0,0,0,0,0,0,0},{0,1,1,1,1,0,0},{0,1,0,0,1,0,0},{1,0,1,0,1,0,0},{0,1,0,0,1,0,0},{0,1,0,0,1,0,0},{0,1,1,1,1,0,0}
         }));
@@ -54,19 +56,123 @@ public class LeetCode827 {
 }
 
 /**
- 消耗内存分布
- 74.62
- MB
+ 执行用时分布
+ 24
+ ms
  击败
- 56.42%
+ 100.00%
+
  */
 class Solution {
     int res = 0;
     int col = 0;
     int row = 0;
 
-    // 用来标记遍历坐标
-    Set<Integer> set = new HashSet<>();
+    public int largestIsland(int[][] grid) {
+        row = grid.length;
+        col = grid[0].length;
+
+        // 面积地图
+        int[] counts = new int[row * col + 2];
+        // 岛屿编号
+        int no = 2;
+        // 计算岛屿面积
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[i].length; j++) {
+                // 1 : 未标记编号的岛屿
+                if (grid[i][j] == 1) {
+                    // 计算岛屿面积
+                    int sum = dfs(grid, i, j, no);
+                    // 编号+1, 记录岛屿面积
+                    counts[no++] = sum;
+                    res = Math.max(res, sum);
+                }
+            }
+        }
+        if (res >= row * col - 1) {
+            return row * col;
+        }
+
+        // 连通岛屿，算出最大面积
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                // 对地图上的海洋部分处理，连接上下左右岛屿面积
+                if (grid[i][j] == 0) {
+                    int sum = 1;
+                    // 上下左右四个岛屿编号
+                    int left = 0, right = 0, up = 0, below = 0;
+                    if (j > 0)
+                        left = grid[i][j - 1];
+
+                    if (j + 1 < col )
+                        right = grid[i][j + 1];
+
+                    if (i + 1 < row)
+                        below = grid[i + 1][j];
+
+                    if (i > 0)
+                        up = grid[i - 1][j];
+
+                    // 左岛屿
+                    sum += counts[left];
+
+                    // 右岛屿
+                    if(right != left)
+                        sum += counts[right];
+
+                    // 上岛屿
+                    if(up != left && up != right)
+                        sum += counts[up];
+
+                    // 下岛屿
+                    if(below != left && below != right && below != up)
+                        sum += counts[below];
+
+                    res = Math.max(res, sum);
+                }
+            }
+        }
+        return res;
+    }
+
+    public int dfs(int[][] grid, int x, int y, int no) {
+        if (x < 0 || y < 0 || y >= col || x >= row || grid[x][y] != 1) {
+            return 0;
+        }
+        // 岛屿编号
+        grid[x][y] = no;
+        int sum = 1;
+        // 上
+        sum += dfs(grid, x, y - 1, no);
+        // 下
+        sum += dfs(grid, x, y + 1, no);
+        // 左
+        sum += dfs(grid, x - 1, y, no);
+        // 右
+        sum += dfs(grid, x + 1, y, no);
+        return sum;
+    }
+}
+
+
+/**
+ 执行用时分布
+ 108
+ ms
+ 击败
+ 24.97%
+
+ 消耗内存分布
+ 76.37
+ MB
+ 击败
+ 44.52%
+ */
+class Solution5 {
+    int res = 0;
+    int col = 0;
+    int row = 0;
+
     // key 岛屿编号 value 面积
     // 主要用来节省遍历时间复杂度
     Map<Integer, Integer> map = new HashMap<>();
@@ -74,21 +180,19 @@ class Solution {
     public int largestIsland(int[][] grid) {
         row = grid.length;
         col = grid[0].length;
-        // 地图中岛屿编号
-        int[][] tag = new int[row][col];
-        // 标记岛屿
+        // 岛屿编号
+        int no = 2;
+        // 计算岛屿面积
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[i].length; j++) {
-                // 坐标为岛屿 且 没有记录岛屿编号
-                if (grid[i][j] != 0 && tag[i][j] == 0) {
-                    // 岛屿编号
-                    int no = i * col + j + 1;
-                    // set用来记录遍历过的坐标，清空标记
-                    set.clear();
+                // 1 : 未标记编号的岛屿
+                if (grid[i][j] == 1) {
                     // 计算岛屿面积
-                    int sum = dfs(grid, i, j, tag, no);
+                    int sum = dfs(grid, i, j, no);
                     // 记录岛屿面积
                     map.put(no, sum);
+                    // 编号+1
+                    no++;
                     res = Math.max(res, sum);
                 }
             }
@@ -98,40 +202,41 @@ class Solution {
             for (int j = 0; j < grid[i].length; j++) {
                 // 连通岛屿编号集合
                 Set<Integer> noSet = new HashSet<>();
+                noSet.add(0);
                 int sum = 1;
                 // 对地图上的海洋部分处理，连接上下左右岛屿面积
                 if (grid[i][j] == 0) {
                     int x = i;
                     int y = j;
                     // 连通上下左右四个岛屿面积之和
-                    // 上
+                    // 上岛屿
                     x = i;
                     y = j -1;
-                    if (validate(x, y) && !noSet.contains(tag[x][y])) {
-                        sum += map.getOrDefault(tag[x][y], 0);
-                        noSet.add(tag[x][y]);
+                    if (y >= 0 && !noSet.contains(grid[x][y])) {
+                        sum += map.getOrDefault(grid[x][y], 0);
+                        noSet.add(grid[x][y]);
                     }
                     // 下岛屿
                     x = i;
                     y = j + 1;
-                    if (validate(x, y) && !noSet.contains(tag[x][y])) {
+                    if (y < col && !noSet.contains(grid[x][y])) {
                         // 获取不到岛屿，默认返回0面积
-                        sum += map.getOrDefault(tag[x][y], 0);
-                        noSet.add(tag[x][y]);
+                        sum += map.getOrDefault(grid[x][y], 0);
+                        noSet.add(grid[x][y]);
                     }
                     // 左岛屿
                     x = i - 1;
                     y = j;
-                    if (validate(x, y) && !noSet.contains(tag[x][y])) {
-                        sum += map.getOrDefault(tag[x][y], 0);
-                        noSet.add(tag[x][y]);
+                    if (x >= 0 && !noSet.contains(grid[x][y])) {
+                        sum += map.getOrDefault(grid[x][y], 0);
+                        noSet.add(grid[x][y]);
                     }
                     // 右岛屿
                     x = i + 1;
                     y = j;
-                    if (validate(x, y) && !noSet.contains(tag[x][y])) {
-                        sum += map.getOrDefault(tag[x][y], 0);
-                        noSet.add(tag[x][y]);
+                    if (x < row && !noSet.contains(grid[x][y])) {
+                        sum += map.getOrDefault(grid[x][y], 0);
+                        noSet.add(grid[x][y]);
                     }
                 }
                 res = Math.max(res, sum);
@@ -140,29 +245,22 @@ class Solution {
         return res;
     }
 
-    public int dfs(int[][] grid, int x, int y, int[][] tag, int no) {
-        // 坐标编号
-        int xy = x * col + y + 1;
-        if (x < 0 || y < 0 || y >= col || x >= row || grid[x][y] == 0 || set.contains(xy)) {
+    public int dfs(int[][] grid, int x, int y, int no) {
+        if (x < 0 || y < 0 || y >= col || x >= row || grid[x][y] != 1) {
             return 0;
         }
-        // 大岛屿编号
-        tag[x][y] = no;
+        // 岛屿编号
+        grid[x][y] = no;
         int sum = 1;
-        set.add(xy);
         // 上
-        sum += dfs(grid, x, y - 1, tag, no);
+        sum += dfs(grid, x, y - 1, no);
         // 下
-        sum += dfs(grid, x, y + 1, tag, no);
+        sum += dfs(grid, x, y + 1, no);
         // 左
-        sum += dfs(grid, x - 1, y, tag, no);
+        sum += dfs(grid, x - 1, y, no);
         // 右
-        sum += dfs(grid, x + 1, y, tag, no);
+        sum += dfs(grid, x + 1, y, no);
         return sum;
-    }
-
-    public boolean validate(int x, int y) {
-        return x >= 0 && y >= 0 && x < row && y < col;
     }
 }
 
@@ -296,5 +394,85 @@ class Solution2 {
 
     public boolean valid(int n, int x, int y) {
         return x >= 0 && x < n && y >= 0 && y < n;
+    }
+}
+
+
+/**
+ * 优秀解答
+ */
+class Solution4 {
+    // 1. Explore every island using dfs, count its area, give it an island id and save the result to  counts[id] = area map.
+    // 2. Loop every cell == 0, check its connected islands and calculate total islands area.
+    public int largestIsland(int[][] grid) {
+        int n = grid.length;
+        // i 编号 坐标值为面积
+        int[] counts = new int[ n * n + 2]; // store island size
+        int id = 2;
+        int maxSum = 0;
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (grid[i][j] == 1) {
+                    int count = dfs(grid, i, j, id);
+                    maxSum = Math.max(maxSum,count);
+                    counts[id++] = count;
+                }
+            }
+        }
+
+        if(maxSum >= n * n - 1)
+            return n * n;
+
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < n; ++j) {
+                if (grid[i][j] != 0)
+                    continue;
+
+                int left = 0, right = 0, up = 0, below = 0;
+
+                if (j > 0)
+                    left = grid[i][j - 1];
+
+                if (j + 1 < n )
+                    right = grid[i][j + 1];
+
+                if (i + 1 < n)
+                    below = grid[i + 1][j];
+
+                if (i > 0)
+                    up = grid[i - 1][j];
+
+                int sum = 1 + counts[left];
+
+                if(right != left)
+                    sum += counts[right];
+
+                if(up != left && up != right)
+                    sum += counts[up];
+
+                if(below != left && below != right && below != up)
+                    sum += counts[below];
+
+                maxSum = Math.max(maxSum, sum);
+            }
+        }
+
+        return maxSum;
+    }
+
+    private int dfs(int[][] grid, int i, int j, int id) {
+
+        int n = grid.length;
+        if (i < 0 || i >= n || j < 0 || j >= n || grid[i][j] != 1)
+            return 0;
+
+        grid[i][j] = id;
+        int size = 1 + dfs(grid, i - 1, j, id)
+                + dfs(grid, i + 1, j, id)
+                + dfs(grid, i, j - 1, id)
+                + dfs(grid, i, j + 1, id);
+
+        return size;
     }
 }
