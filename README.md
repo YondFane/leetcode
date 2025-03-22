@@ -303,6 +303,8 @@
 
 [477-汉明距离总和](src/question477/LeetCode477.java)--->[leetcode链接](https://leetcode.cn/problems/total-hamming-distance/description/)
 
+[459-重复的子字符串](src/question459/LeetCode459.java)--->[leetcode链接](https://leetcode.cn/problems/repeated-substring-pattern)
+
 [479-最大回文数乘积](src/question479/LeetCode479.java)--->[leetcode链接](https://leetcode.cn/problems/largest-palindrome-product/description/)
 
 [506-相对名词](src/question506/LeetCode506.java)--->[leetcode链接](https://leetcode-cn.com/relative-ranks/description/)
