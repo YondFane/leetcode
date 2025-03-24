@@ -435,6 +435,8 @@
 
 [2231-按奇偶性交换后的最大数字](src/question2231/LeetCode2231.java)--->[leetcode链接](https://leetcode-cn.com/problems/largest-number-after-digit-swaps-by-parity/)
 
+[2255-统计是给定字符串前缀的字符串数目](src/question2255/LeetCode2255.java)--->[leetcode链接](https://leetcode.cn/problems/count-prefixes-of-a-given-string)
+
 [2336-无限集中的最小数字](src/question2336/LeetCode2336.java)--->[leetcode链接](https://leetcode.cn/problems/smallest-number-in-infinite-set)
 
 [2465-按奇偶性交换后的最大数字](src/question2465/LeetCode2465.java)--->[leetcode链接](https://leetcode.cn/problems/number-of-distinct-averages/description/)
