@@ -381,6 +381,8 @@
 
 [876-链表的中间结点](src/question876/LeetCode876.java)--->[leetcode链接](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
 
+[905-按奇偶排序数组](src/question905/LeetCode905.java)--->[leetcode链接](https://leetcode.cn/problems/sort-array-by-parity)
+
 [933-最近的请求次数](src/question933/LeetCode933.java)--->[leetcode链接](https://leetcode-cn.com/problems/number-of-recent-calls/)
 
 [942-增减字符串匹配](src/question942/LeetCode942.java)--->[leetcode链接](https://leetcode-cn.com/problems/di-string-match/)
