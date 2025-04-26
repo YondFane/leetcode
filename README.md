@@ -451,6 +451,8 @@
 
 [2680-最大或值](src/question2680/LeetCode2680.java)--->[leetcode链接](https://leetcode.cn/problems/maximum-or)
 
+[3304-找出第 K 个字符 I](src/question3304/LeetCode3304.java)--->[leetcode链接](https://leetcode.cn/problems/find-the-k-th-character-in-string-game-i)
+
 [3306-元音辅音字符串计数 II](src/question3306/LeetCode3306.java)--->[leetcode链接](https://leetcode.cn/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii)
 
 [6060-找到最接近 0 的数字](src/question6060/LeetCode6060.java)--->[leetcode链接](https://leetcode-cn.com/problems/find-closest-number-to-zero/)
