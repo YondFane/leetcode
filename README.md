@@ -407,6 +407,8 @@
 
 [1090-受标签影响的最大值](src/question1090/LeetCode1090.java)--->[leetcode链接](https://leetcode.cn/problems/largest-values-from-labels)
 
+[1128-等价多米诺骨牌对的数量](src/question1126/LeetCode1128.java)--->[leetcode链接](https://leetcode.cn/problems/number-of-equivalent-domino-pairs)
+
 [1137-第 N 个泰波那契数](src/question1137/LeetCode1137.java)--->[leetcode链接](https://leetcode-cn.com/problems/sort-the-matrix-diagonally/)
 
 [1305-两棵二叉搜索树中的所有元素](src/question1305/LeetCode1305.java)--->[leetcode链接](https://leetcode.cn/problems/all-elements-in-two-binary-search-trees)
