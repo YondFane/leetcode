@@ -171,6 +171,8 @@
 
 [155-最小的栈](src/question155/LeetCode155.java)--->[leetcode链接](https://leetcode-cn.com/problems/min-stack/)
 
+[162-寻找峰值](src/question162/LeetCode162.java)--->[leetcode链接](https://leetcode.cn/problems/find-peak-element)
+
 [164-最大间距](src/question164/LeetCode164.java)--->[leetcode链接](https://leetcode-cn.com/problems/maximum-gap/)
 
 [167-两数之和 II - 输入有序数组](src/question167/LeetCode167.java)--->[leetcode链接](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
