@@ -373,6 +373,8 @@
 
 [746-使用最小花费爬楼梯](src/question746/LeetCode746.java)--->[leetcode链接](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)
 
+[790-多米诺和托米诺平铺](src/question790/LeetCode790.java)--->[leetcode链接](https://leetcode.cn/problems/domino-and-tromino-tiling)
+
 [792-匹配子序列的单词数](src/question792/LeetCode792.java)--->[leetcode链接](https://leetcode.cn/problems/number-of-matching-subsequences)
 
 [799-香槟塔](src/question799/LeetCode799.java)--->[leetcode链接](https://leetcode.cn/problems/champagne-tower/description/)
