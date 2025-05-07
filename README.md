@@ -371,6 +371,8 @@
 
 [733-图像渲染](src/question733/LeetCode733.java)--->[leetcode链接](https://leetcode-cn.com/problems/flood-fill/)
 
+[740-删除并获得点数](src/question740/LeetCode740.java)--->[leetcode链接](https://leetcode.cn/problems/delete-and-earn)
+
 [746-使用最小花费爬楼梯](src/question746/LeetCode746.java)--->[leetcode链接](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)
 
 [790-多米诺和托米诺平铺](src/question790/LeetCode790.java)--->[leetcode链接](https://leetcode.cn/problems/domino-and-tromino-tiling)
