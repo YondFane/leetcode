@@ -449,6 +449,8 @@
 
 [2336-无限集中的最小数字](src/question2336/LeetCode2336.java)--->[leetcode链接](https://leetcode.cn/problems/smallest-number-in-infinite-set)
 
+[2364-统计坏数对的数目](src/question2364/LeetCode2364.java)--->[leetcode链接](https://leetcode.cn/problems/smallest-number-in-infinite-set)
+
 [2465-按奇偶性交换后的最大数字](src/question2465/LeetCode2465.java)--->[leetcode链接](https://leetcode.cn/problems/number-of-distinct-averages/description/)
 
 [2610-转换二维数组](src/question2610/LeetCode2610.java)--->[leetcode链接](https://leetcode.cn/problems/convert-an-array-into-a-2d-array-with-conditions/)
