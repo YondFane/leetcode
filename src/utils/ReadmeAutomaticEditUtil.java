@@ -35,7 +35,7 @@ public class ReadmeAutomaticEditUtil {
             while (br.ready()) {
                 String readLine = br.readLine();
                 if (readLine.length() == 0 || readLine.startsWith("#")) {
-                    sb.append(readLine + "\n");
+                    sb.append(readLine + "\r\n");
                     continue;
                 }
                 // 获取题目序号
@@ -50,11 +50,11 @@ public class ReadmeAutomaticEditUtil {
                     // 填充记录
                     String newLine = "[#num#-#title#](src/question#num#/LeetCode#num#.java)--->[leetcode链接](#url#)";
                     newLine = newLine.replaceAll("#num#", number).replace("#title#", tile).replace("#url#", leetcodeUrl);
-                    System.out.println( "填充记录 : " + newLine);
+                    System.out.println("填充记录 : " + newLine);
                     writeFlag = true;
-                    sb.append(newLine + "\n\n");
+                    sb.append(newLine + "\r\n\r\n");
                 }
-                sb.append(readLine + "\n");
+                sb.append(readLine + "\r\n");
                 //System.out.println(currentNum);
                 //System.out.println(readLine);
             }
@@ -99,7 +99,23 @@ public class ReadmeAutomaticEditUtil {
         }
     }
 
+    /**
+     * 传入提交记录进行解析
+     * 808-情感丰富的文字 :sparkles: https://leetcode.cn/problems/expressive-words
+     * @param commitMessage
+     */
+    public static void automatic(String commitMessage) {
+        String number = commitMessage.substring(0, commitMessage.indexOf("-")).trim();
+        String title = commitMessage.substring(commitMessage.indexOf("-") + 1, commitMessage.indexOf(":")).trim();
+        String leetCodeUrl = commitMessage.substring(commitMessage.indexOf("https")).trim();
+        System.out.println("题目序号：" + number);
+        System.out.println("题目标题：" + title);
+        System.out.println("leetCodeUrl: " + leetCodeUrl);
+        automatic(number, title, leetCodeUrl);
+    }
+
     public static void main(String[] args) {
-        automatic("808", "测试", "https://leetcode.cn/problems/expressive-words");
+//        automatic("808", "测试", "https://leetcode.cn/problems/expressive-words");
+        automatic("808-情感丰富的文字 :sparkles: https://leetcode.cn/problems/expressive-words");
     }
 }
