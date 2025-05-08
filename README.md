@@ -381,6 +381,8 @@
 
 [799-香槟塔](src/question799/LeetCode799.java)--->[leetcode链接](https://leetcode.cn/problems/champagne-tower/description/)
 
+[809-情感丰富的文字](src/question809/LeetCode809.java)--->[leetcode链接](https://leetcode.cn/problems/expressive-words)
+
 [827-最大人工岛](src/question827/LeetCode827.java)--->[leetcode链接](https://leetcode.cn/problems/making-a-large-island)
 
 [867-转置矩阵](src/question867/LeetCode867.java)--->[leetcode链接](https://leetcode-cn.com/problems/transpose-matrix/)
