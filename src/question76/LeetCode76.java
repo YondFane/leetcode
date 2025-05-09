@@ -65,7 +65,9 @@ public class LeetCode76 {
  */
 class Solution {
 
+    // 记录t中字符数量
     Map<Character, Integer> ori = new HashMap<Character, Integer>();
+    // 记录当前窗口的字符数量
     Map<Character, Integer> cnt = new HashMap<Character, Integer>();
 
     public String minWindow(String s, String t) {
