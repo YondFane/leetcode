@@ -70,24 +70,31 @@ class Solution {
 
     public String minWindow(String s, String t) {
         int tLen = t.length();
+        // 记录t中字符数量
         for (int i = 0; i < tLen; i++) {
             char c = t.charAt(i);
             ori.put(c, ori.getOrDefault(c, 0) + 1);
         }
+        // l 收缩指针 r 延伸指针
         int l = 0, r = -1;
         int len = Integer.MAX_VALUE, ansL = -1, ansR = -1;
         int sLen = s.length();
         while (r < sLen) {
+            // 向右延伸
             ++r;
+            // 如果存在t中字符, 进行计数+1
             if (r < sLen && ori.containsKey(s.charAt(r))) {
                 cnt.put(s.charAt(r), cnt.getOrDefault(s.charAt(r), 0) + 1);
             }
+            // 判断当前 s字符的l-r区间字符 是否满足t中所有字符，如果满足进行收缩
             while (check() && l <= r) {
                 if (r - l + 1 < len) {
                     len = r - l + 1;
+                    // 更新结果 左坐标值 右坐标值
                     ansL = l;
                     ansR = l + len;
                 }
+                // 左边界包含t中的字符，计数减1，方便下次向左收缩
                 if (ori.containsKey(s.charAt(l))) {
                     cnt.put(s.charAt(l), cnt.getOrDefault(s.charAt(l), 0) - 1);
                 }
@@ -97,12 +104,14 @@ class Solution {
         return ansL == -1 ? "" : s.substring(ansL, ansR);
     }
 
+    // 判断当前计数的字符中是否包含t中字符数量
     public boolean check() {
         Iterator iter = ori.entrySet().iterator();
         while (iter.hasNext()) {
             Map.Entry entry = (Map.Entry) iter.next();
             Character key = (Character) entry.getKey();
             Integer val = (Integer) entry.getValue();
+            // 不满足字符数量
             if (cnt.getOrDefault(key, 0) < val) {
                 return false;
             }
