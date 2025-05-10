@@ -51,8 +51,8 @@ class Solution {
      * @return
      */
     public long minSum(int[] nums1, int[] nums2) {
-        int sum1 = 0, zero1 = 0;
-        int sum2 = 0, zero2 = 0;
+        long sum1 = 0, zero1 = 0;
+        long sum2 = 0, zero2 = 0;
 
         for (int num : nums1) {
             sum1 += num;
