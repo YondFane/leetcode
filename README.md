@@ -109,6 +109,8 @@
 
 [80-删除排序数组中的重复项 II](src/question80/LeetCode80.java)--->[leetcode链接](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii/solutions/)
 
+[83-删除排序链表中的重复元素](src/question83/LeetCode83.java)--->[leetcode链接](https://leetcode.cn/problems/remove-duplicates-from-sorted-list)
+
 [84-柱状图中最大的矩形](src/question84/LeetCode84.java)--->[leetcode链接](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
 
 [86-分隔链表](src/question86/LeetCode86.java)--->[leetcode链接](https://leetcode.cn/problems/partition-list/description/)
