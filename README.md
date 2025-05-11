@@ -433,6 +433,8 @@
 
 [1394-找出数组中的幸运数](src/question1394/LeetCode1394.java)--->[leetcode链接](https://leetcode-cn.com/problems/find-lucky-integer-in-an-array/)
 
+[1550-存在连续三个奇数的数组](src/question1550/LeetCode1550.java)--->[leetcode链接](https://leetcode.cn/problems/three-consecutive-odds)
+
 [1582-二进制矩阵中的特殊位置](src/question1582/LeetCode1582.java)--->[leetcode链接](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/)
 
 [1614-括号的最大嵌套深度](src/question1614/LeetCode1614.java)--->[leetcode链接](https://leetcode.cn/problems/maximum-nesting-depth-of-the-parentheses/)
