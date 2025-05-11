@@ -72,6 +72,28 @@ class Solution {
     }
 }
 
+/**
+ * 官方题解
+ * 已排序链表不需要记录之前的节点
+ */
+class Solution2 {
+    public ListNode deleteDuplicates(ListNode head) {
+        if(head == null){
+            return null;
+        }
+        ListNode temp = head;
+        while(temp.next!= null) {
+            if (temp.val == temp.next.val) {
+                temp.next = temp.next.next;
+            } else {
+                temp = temp.next;
+            }
+        }
+        return head;
+
+    }
+}
+
 class ListNode {
     int val;
     ListNode next;
