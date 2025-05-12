@@ -479,6 +479,8 @@
 
 [3306-元音辅音字符串计数 II](src/question3306/LeetCode3306.java)--->[leetcode链接](https://leetcode.cn/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii)
 
+[3335-字符串转换后的长度 I](src/question3335/LeetCode3335.java)--->[leetcode链接](https://leetcode.cn/problems/total-characters-in-string-after-transformations-i)
+
 [3343-统计平衡排列的数目](src/question3343/LeetCode3343.java)--->[leetcode链接](https://leetcode.cn/problems/count-number-of-balanced-permutations)
 
 [6060-找到最接近 0 的数字](src/question6060/LeetCode6060.java)--->[leetcode链接](https://leetcode-cn.com/problems/find-closest-number-to-zero/)
