@@ -68,11 +68,13 @@ import java.util.Map;
 public class LeetCode3335 {
     public static void main(String[] args) {
         Solution solution = new Solution();
+        Solution2 solution2 = new Solution2();
         System.out.println(solution.lengthAfterTransformations("abcyy", 2));
         System.out.println(solution.lengthAfterTransformations("k", 10));
         System.out.println(solution.lengthAfterTransformations("jqktcurgdvlibczdsvnsg", 7517));// 79033769
         System.out.println(solution.lengthAfterTransformations("optxpnfacrptrflqjswkpbf", 1535));
         System.out.println(solution.lengthAfterTransformations("iatckelagcytuuxbgiajuoni", 6626));// 828985333
+        System.out.println(solution2.lengthAfterTransformations("iatckelagcytuuxbgiajuoni", 6626));// 828985333
     }
 }
 
