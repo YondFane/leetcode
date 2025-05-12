@@ -87,3 +87,39 @@ class Solution {
         return nums;
     }
 }
+
+// 优化内存
+class Solution2 {
+    public int[] findEvenNumbers(int[] digits) {
+        Map<Integer, Integer> countNumMap = new HashMap<>();
+        List<Integer> res = new ArrayList<>();
+        for (int num : digits) {
+            countNumMap.put(num, countNumMap.getOrDefault(num, 0) + 1);
+        }
+        for (int i = 100; i < 1000; i+=2) {
+            int[] tMap = new int[10];
+            int num = i;
+            while (num > 0) {
+                int d = num % 10;
+                tMap[d]++;
+                num /= 10;
+            }
+            boolean flag = true;
+            for (int j = 0; j < tMap.length; j++) {
+                if (countNumMap.getOrDefault(j, 0) < tMap[j]) {
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag) {
+                res.add(i);
+            }
+        }
+
+        int[] nums = new int[res.size()];
+        for (int i = 0; i < nums.length; i++) {
+            nums[i] = res.get(i);
+        }
+        return nums;
+    }
+}
