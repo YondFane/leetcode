@@ -74,6 +74,8 @@ public class LeetCode3335 {
         System.out.println(solution.lengthAfterTransformations("jqktcurgdvlibczdsvnsg", 7517));// 79033769
         System.out.println(solution.lengthAfterTransformations("optxpnfacrptrflqjswkpbf", 1535));
         System.out.println(solution.lengthAfterTransformations("iatckelagcytuuxbgiajuoni", 6626));// 828985333
+
+        System.out.println(solution2.lengthAfterTransformations("abcyy", 2));
         System.out.println(solution2.lengthAfterTransformations("iatckelagcytuuxbgiajuoni", 6626));// 828985333
     }
 }
