@@ -99,3 +99,23 @@ class Solution {
         return (int) (res);
     }
 }
+
+
+/**
+ * 优秀题解
+ */
+class Solution2 {
+    public int lengthAfterTransformations(String s, int t) {
+        int mod = 1000000007;
+        int res = 0;
+        int[] cnt = new int[t + 27];
+        Arrays.fill(cnt, 1);
+        for (int i = 26; i < cnt.length; i++) {
+            cnt[i] = (cnt[i - 26] + cnt[i - 25]) % mod;
+        }
+        for (char ch : s.toCharArray()) {
+            res = (res + cnt[ch - 'a' + t]) % mod;
+        }
+        return res;
+    }
+}
