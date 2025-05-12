@@ -455,6 +455,8 @@
 
 [2051-花期内花的数目](src/question2051/LeetCode2051.java)--->[leetcode链接](https://leetcode-cn.com/problems/number-of-flowers-in-full-bloom/)
 
+[2094-找出 3 位偶数](src/question2094/LeetCode2094.java)--->[leetcode链接](https://leetcode.cn/problems/finding-3-digit-even-numbers)
+
 [2231-按奇偶性交换后的最大数字](src/question2231/LeetCode2231.java)--->[leetcode链接](https://leetcode-cn.com/problems/largest-number-after-digit-swaps-by-parity/)
 
 [2255-统计是给定字符串前缀的字符串数目](src/question2255/LeetCode2255.java)--->[leetcode链接](https://leetcode.cn/problems/count-prefixes-of-a-given-string)
