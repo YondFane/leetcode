@@ -425,6 +425,8 @@
 
 [1137-第 N 个泰波那契数](src/question1137/LeetCode1137.java)--->[leetcode链接](https://leetcode-cn.com/problems/sort-the-matrix-diagonally/)
 
+[1201-丑数 III](src/question1201/LeetCode1201.java)--->[leetcode链接](https://leetcode.cn/problems/ugly-number-iii)
+
 [1305-两棵二叉搜索树中的所有元素](src/question1305/LeetCode1305.java)--->[leetcode链接](https://leetcode.cn/problems/all-elements-in-two-binary-search-trees)
 
 [1315-祖父节点值为偶数的节点和](src/question1315/LeetCode1315.java)--->[leetcode链接](https://leetcode.cn/problems/sum-of-nodes-with-even-valued-grandparent/description/)
