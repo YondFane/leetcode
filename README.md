@@ -477,6 +477,8 @@
 
 [2918-数组的最小相等和](src/question2918/LeetCode2918.java)--->[leetcode链接](https://leetcode.cn/problems/minimum-equal-sum-of-two-arrays-after-replacing-zeros)
 
+[2942-查找包含给定字符的单词](src/question2942/LeetCode2942.java)--->[leetcode链接](https://leetcode.cn/problems/find-words-containing-character)
+
 [3024-三角形类型](src/question3024/LeetCode3024.java)--->[leetcode链接](https://leetcode.cn/problems/type-of-triangle)
 
 [3304-找出第 K 个字符 I](src/question3304/LeetCode3304.java)--->[leetcode链接](https://leetcode.cn/problems/find-the-k-th-character-in-string-game-i)
