@@ -291,6 +291,8 @@
 
 [404-左叶子之和](src/question404/LeetCode404.java)--->[leetcode链接](https://leetcode-cn.com/problems/sum-of-left-leaves/)
 
+[405-数字转换为十六进制数](src/question405/LeetCode405.java)--->[leetcode链接](https://leetcode.cn/problems/convert-a-number-to-hexadecimal/)
+
 [414-第三大的数](src/question414/LeetCode414.java)--->[leetcode链接](https://leetcode.cn/problems/third-maximum-number/)
 
 [415-字符串相加](src/question415/LeetCode415.java)--->[leetcode链接](https://leetcode.cn/problems/add-strings/description/)
