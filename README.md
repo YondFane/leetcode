@@ -217,6 +217,8 @@
 
 [221-最大的正方形](src/question221/LeetCode221.java)--->[leetcode链接](https://leetcode.cn/problems/maximal-square/)
 
+[223-矩形面积](src/question223/LeetCode223.java)--->[leetcode链接](https://leetcode.cn/problems/rectangle-area/)
+
 [226-翻转二叉树](src/question226/LeetCode226.java)--->[leetcode链接](https://leetcode-cn.com/problems/invert-binary-tree/)
 
 [230-二叉搜索树中第K小的元素](src/question230/LeetCode230.java)--->[leetcode链接](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/)
